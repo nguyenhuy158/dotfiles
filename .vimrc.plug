@@ -1,0 +1,39 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+  
+  " themes
+  Plug 'joshdick/onedark.vim'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
+ 
+  " file folder
+  Plug 'preservim/nerdtree'
+  Plug 'preservim/nerdcommenter'
+  Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+  Plug 'ryanoasis/vim-devicons'
+  
+  " code 
+  Plug 'jiangmiao/auto-pairs'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'junegunn/fzf', {'do' : { -> fzf#install() }}
+  Plug 'junegunn/fzf.vim'
+  Plug 'tpope/vim-surround'
+  
+  Plug 'airblade/vim-gitgutter'
+  Plug 'tpope/vim-fugitive'
+  
+  Plug 'Chiel92/vim-autoformat'
+
+"  Plug 'prettier/vim-prettier', {
+  " \ 'do': 'yarn install',
+  " \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+
+  if !has('nvim')
+    Plug 'rhysd/vim-healthcheck'
+  endif
+  
+  
+
+call plug#end()
+
