@@ -24,6 +24,11 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-fugitive'
   
   Plug 'Chiel92/vim-autoformat'
+  Plug 'voldikss/vim-floaterm'
+
+  Plug 'google/vim-maktaba'
+  Plug 'google/vim-codefmt'
+  Plug 'google/vim-glaive'
 
 "  Plug 'prettier/vim-prettier', {
   " \ 'do': 'yarn install',

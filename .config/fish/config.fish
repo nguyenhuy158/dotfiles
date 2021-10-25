@@ -1,5 +1,8 @@
 alias ns="npm start"
-alias nrd="npm run deploy"
+alias ni="npm install"
+alias na="npm audit"
+alias nf="npm fund"
+alias nd="npm run deploy"
 
 
 alias c='clear'
@@ -21,6 +24,7 @@ alias gl="git pull"
 alias gqc='git add . && git commit -m "quick commit"'
 alias push-vim="gqc && gp"
 
+alias film="~/Documents/Vozflix.AppImage"
 
 
 alias move-vim-code="cd ~/vim && push-vim"

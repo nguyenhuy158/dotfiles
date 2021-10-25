@@ -1,25 +1,105 @@
-source ~/.config/fish/config.fish
 code vim
+.
+vi
+z hyquaq
+vi index.json
+vi .vimrc
+cd -
+cd
+js-beautify -h
+js-beautify -v
+sudo apt install jsbeautifier
+pip uninstall jsbeautifier
+pip uninstall jsbeautify
+pip -h
+exit
+pip install jsbeautifier==1.10.1-rc2
+pip install jsbeautifier@1.10.1-rc2
+npm i js-beautify@1.10.1-rc2
+ns
+pip install cssbeautifier
+pip install jsbeautifier
+npm -g install js-beautify
+npm i js-beautify
+npm -g i js-beautify
+ll -a
+ll
+cp my-app/.gitignore hyquaq/
+..
+js-beautify
+create-react-app my-app
+rm -rf my-app/
+cd ..
+cd my-app/
+na
+nf
+ni
+source ~/.config/fish/config.fish
+vi ~/.config/fish/config.fish
+git clone https://github.com/hyquaq/hyquaq.git
+rm -rf hyquaq/
+rm -ri hyquaq/
+rm -r hyquaq/
+vi index.py
+pip install yapf
+vi index.js
+vi .vimrc.plug
+vi index.java
+vi index.c
+clang-format -h
+sudo apt install clang-format
+clang-format
+asfla
+kfasldfjas
+c
+ls
+grep sample  sample2
+vi sample
+vi sample2
+cp sample  sample2
+cat sample
+echo sample2 > sample
+grep phoenix sample2
+film
+gimp
+sudo apt install gimp
+apt search gimp
+apt --help
+sudo apt find gimp
+sudo snap remove utube
+snap --help
+sudo apt remove utube
+sudo apt remove ubuntu-
+~/Documents/Vozflix.AppImage
+utube
+sudo snap install utube
+youtube-dl "https://www.youtube.com/watch?v=vuZqot0Y4IU"
+poweroff
+shutdown
+vi index.html
+vi index.css
+vi index.bash
+preload
+jobs -l
+jobs
+date
+h
+backup-vim
+cat history.txt
+history > history.txt
+echo history
 rm -r 1 2
 rm -f 1 2
 rm 1 2
 mkdir 1 2
 mkdir --help
-vi ~/.config/fish/config.fish
-cd
-ll
 ll --color=auto
-c
 git push
-backup-vim
 code .
 gp
 clear
 sudo apt remove kmplayer
 apt remove kmplayer
-apt --help
-.
-..
 ...
 git status
 backup-alias
@@ -28,11 +108,9 @@ alias
 git --help git
 git --help
 git config user.name "Huy Nguyen"
-cd -
 mkdir -p .vim
 mkdir -p .config/fish
 mkdir .config/fish
-ll -a
 cd vim
 zo ~
 cdd
@@ -40,11 +118,9 @@ backup-vimrc
 code ~/.config/fish/config.fish
 cd ~/vim
 z video
-exit
 cp ~/.config/fish/config.fish ~/vim/
 gqc
 cp ~/.config/fish/config.fish vim/
-ls
 git clone https://github.com/hyquaq/vim.git
 :q
 git checkout master
@@ -72,7 +148,6 @@ vi Cau3.java
 cd 3/
 tree 2
 mkdir 3
-cd ..
 z /home/huynguyen/Desktop/java/algorithm\ and\ structure/review/2
 java Cau2
 javac Cau2.java
@@ -103,9 +178,6 @@ javac
 java IntLinkedList
 javac IntLinkedList.java
 java IntLinkedList.java
-vi
-vi .vimrc
-vi .vimrc.plug
 cd 1
 z lab5
 z /home/huynguyen/Desktop/java/algorithm\ and\ structure/Lab5/1
@@ -115,12 +187,10 @@ cd algorithm\ and\ structure/
 z java
 zo /home/huynguyen/Videos
 cd Videos/
-poweroff
 node new.js
 vi obj.js
 touch obj.js
 vi new.js
-vi index.css
 top
 ccd
 dc
@@ -132,12 +202,8 @@ zo
 cd ~/.fonts
 mkdir ~/.fonts
 cd ; vi .vimrc
-z hyquaq
 vi script.js
 rm index.js
-vi index.js
-vi index.html
-vi index.py
 npm i -g yarn
 npm install -g yarn
 vi .vim
@@ -162,11 +228,9 @@ vi .map.vim
 javac test.java; java test
 vi test.java
 bash index.bash
-vi index.bash
 vi index.scss
 mv index.css index.scss
 python3 index.py
-vi index.json
 nodejs --version
 node -v
 sudo n stable
@@ -297,7 +361,6 @@ youtube-dl https://www.youtube.com/watch?v=KmOKQS9u-90
 sudo apt install kmplayer
 sudo apt install kmp
 rm -rf count-day/
-ns
 cd count-day/
 git clone https://github.com/hyquaq/count-day.git
 cd. .
@@ -374,7 +437,6 @@ sudo apt-get install fonts-powerline
 sudo apt install font-powerline
 fish
 sudo reboot
-create-react-app my-app
 kjfkajs;klf
 sfjkasjflkasjf
 dfasjfklajslkdfja
@@ -434,7 +496,6 @@ ibus-set
 sudo apt-get install ibus-unikey
 ibus restart
 git checkout main
-cd my-app/
 create-react-app --version
 sudo npm -g install create-react-app
 npm --version
@@ -470,7 +531,6 @@ git checkout -h
 git checkout -hg
 git checkout gh-pages
 cd hyquaq
-git clone https://github.com/hyquaq/hyquaq.git
 git branch -a
 git brach -a
 git checkout khoa
