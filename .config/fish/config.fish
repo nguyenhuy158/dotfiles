@@ -6,6 +6,9 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias cdd="cd -"
 
+alias apt-get="sudo apt-get"
+alias apt="sudo apt"
+
 alias gp="git push"
 alias gl="git pull"
 alias gqc='git add . && git commit -m "quick commit"'
