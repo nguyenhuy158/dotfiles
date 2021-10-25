@@ -9,8 +9,7 @@ alias gqc='git add . && git commit -m "quick commit"'
 alias push-vim="gqc && gp"
 
 
-alias move-vim="cd ~/vim"
-alias backup-vim="cp ~/.config/fish/config.fish ~/vim/ && move-vim && push-vim
-&& cd - "
+alias move-vim-push="cd ~/vim && push-vim"
+alias backup-vim="cp ~/.config/fish/config.fish ~/vim/ && move-vim-push && cd - "
 
 
