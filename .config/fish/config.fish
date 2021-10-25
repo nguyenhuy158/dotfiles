@@ -3,10 +3,13 @@ alias nrd="npm run deploy"
 
 
 alias c='clear'
+alias h='history'
 alias .='cd'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias cdd="cd -"
+
+alias mkdir='mkdir -pv'
 
 
 alias apt-get="sudo apt-get"
@@ -25,8 +28,10 @@ alias backup-alias="cp ~/.config/fish/config.fish ~/vim/.config/fish/"
 alias backup-vimrc="cp ~/.vimrc ~/vim/"
 alias backup-vimrcplug="cp ~/.vimrc.plug ~/vim/"
 alias backup-coc="cp ~/.vim/coc-settings.json ~/vim/.vim/"
+alias backup-history='history > ~/vim/history.txt'
 
-alias bc-vm="backup-alias && backup-vimrc && backup-vimrcplug && backup-coc" 
-alias backup-vim="bc-vm && move-vim-code"
+alias bc-vm="backup-alias && backup-vimrc && backup-vimrcplug && backup-coc"
+alias bc1='bc-vm && backup-history'
+alias backup-vim="bc1 && move-vim-code"
 
 
