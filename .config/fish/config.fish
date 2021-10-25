@@ -19,7 +19,7 @@ alias apt="sudo apt"
 alias gp="git push"
 alias gl="git pull"
 alias gqc='git add . && git commit -m "quick commit"'
-alias push-vim="gqc && code ."
+alias push-vim="gqc && gp"
 
 
 
