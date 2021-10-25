@@ -1,6 +1,7 @@
 alias ns="npm start"
 alias nrd="npm run deploy"
 
+alias c='clear'
 alias .='cd'
 alias ..='cd ..'
 alias ...='cd ../..'
