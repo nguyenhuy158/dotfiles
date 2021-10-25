@@ -10,6 +10,8 @@ alias push-vim="gqc && gp"
 
 
 alias move-vim-push="cd ~/vim && push-vim"
-alias backup-vim="cp ~/.config/fish/config.fish ~/vim/ && move-vim-push && cd - "
+alias backup-alias="cp ~/.config/fish/config.fish ~/vim/"
+alias bc-vm="backup-alias"
+alias backup-vim="bc-vm && move-vim-push && cd - "
 
 
