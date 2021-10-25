@@ -1,13 +1,14 @@
+
+" START
 call plug#begin('~/.vim/plugged')
 
-"Fugitive Vim Github Wrapper
   
-  " themes
+  " THEMES
   Plug 'joshdick/onedark.vim'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
  
-  " file folder
+  " MANAGER FILES AND FOLDER
   Plug 'preservim/nerdtree'
   Plug 'preservim/nerdcommenter'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -30,15 +31,15 @@ call plug#begin('~/.vim/plugged')
   Plug 'google/vim-codefmt'
   Plug 'google/vim-glaive'
 
-"  Plug 'prettier/vim-prettier', {
+  "Plug 'prettier/vim-prettier', {
   " \ 'do': 'yarn install',
   " \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+  Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
+  " HEALTHCHECK -> command checkheald
   if !has('nvim')
     Plug 'rhysd/vim-healthcheck'
   endif
-  
-  
 
 call plug#end()
-
+" END

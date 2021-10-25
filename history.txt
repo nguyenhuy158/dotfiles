@@ -1,18 +1,25 @@
 code vim
+vi .vimrc
+vi .vimrc.plug
 .
+cd
+exit
+touch src/components/Icon.js
 vi
+ll
+z /home/huynguyen/Desktop/hyquaq
+sudo apt install prettier
+npm i prettier
+backup-vim
 z hyquaq
 vi index.json
-vi .vimrc
 cd -
-cd
 js-beautify -h
 js-beautify -v
 sudo apt install jsbeautifier
 pip uninstall jsbeautifier
 pip uninstall jsbeautify
 pip -h
-exit
 pip install jsbeautifier==1.10.1-rc2
 pip install jsbeautifier@1.10.1-rc2
 npm i js-beautify@1.10.1-rc2
@@ -23,7 +30,6 @@ npm -g install js-beautify
 npm i js-beautify
 npm -g i js-beautify
 ll -a
-ll
 cp my-app/.gitignore hyquaq/
 ..
 js-beautify
@@ -43,7 +49,6 @@ rm -r hyquaq/
 vi index.py
 pip install yapf
 vi index.js
-vi .vimrc.plug
 vi index.java
 vi index.c
 clang-format -h
@@ -84,7 +89,6 @@ jobs -l
 jobs
 date
 h
-backup-vim
 cat history.txt
 history > history.txt
 echo history
@@ -134,7 +138,6 @@ tree vim
 tree vm
 cp ~/.config/fish/config.fish ./vim
 git checkout -b vim
-z /home/huynguyen/Desktop/hyquaq
 cd Desktop/
 cd demo
 cd /
