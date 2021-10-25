@@ -1,0 +1,504 @@
+source ~/.config/fish/config.fish
+code vim
+rm -r 1 2
+rm -f 1 2
+rm 1 2
+mkdir 1 2
+mkdir --help
+vi ~/.config/fish/config.fish
+cd
+ll
+ll --color=auto
+c
+git push
+backup-vim
+code .
+gp
+clear
+sudo apt remove kmplayer
+apt remove kmplayer
+apt --help
+.
+..
+...
+git status
+backup-alias
+bc-vm
+alias
+git --help git
+git --help
+git config user.name "Huy Nguyen"
+cd -
+mkdir -p .vim
+mkdir -p .config/fish
+mkdir .config/fish
+ll -a
+cd vim
+zo ~
+cdd
+backup-vimrc
+code ~/.config/fish/config.fish
+cd ~/vim
+z video
+exit
+cp ~/.config/fish/config.fish ~/vim/
+gqc
+cp ~/.config/fish/config.fish vim/
+ls
+git clone https://github.com/hyquaq/vim.git
+:q
+git checkout master
+git push origin master
+git push vim
+git commit -m "backup vim"
+git add .
+mkdir vim
+rm vim
+tree vim
+tree vm
+cp ~/.config/fish/config.fish ./vim
+git checkout -b vim
+z /home/huynguyen/Desktop/hyquaq
+cd Desktop/
+cd demo
+cd /
+cd 1/
+cd Lab5/
+cd ../..
+zo /home/huynguyen/Desktop/java/algorithm\ and\ structure/review/3
+java Cau3
+javac Cau3.java
+vi Cau3.java
+cd 3/
+tree 2
+mkdir 3
+cd ..
+z /home/huynguyen/Desktop/java/algorithm\ and\ structure/review/2
+java Cau2
+javac Cau2.java
+vi Cau2.java
+cd 2
+mkdir 2
+tree 1
+rm *.class
+mv *.java 1/
+mkdir 1/
+javac IntLinkedList.java ; java IntLinkedList
+vi ListInterface.java
+vi IntLinkedList.java
+javac IntLinkedList.java ; java IntLinkedList.java
+vi Node.java
+vi README.md
+touch README.md
+cd review
+mkdir review
+javac Test.java; java Test
+vi Test.java
+vi Test.
+vi IntLinkedList.
+java Test
+java Test.java
+javac Test.java
+javac
+java IntLinkedList
+javac IntLinkedList.java
+java IntLinkedList.java
+vi
+vi .vimrc
+vi .vimrc.plug
+cd 1
+z lab5
+z /home/huynguyen/Desktop/java/algorithm\ and\ structure/Lab5/1
+vi ~.vimrc
+python3 -m pip install pynvim
+cd algorithm\ and\ structure/
+z java
+zo /home/huynguyen/Videos
+cd Videos/
+poweroff
+node new.js
+vi obj.js
+touch obj.js
+vi new.js
+vi index.css
+top
+ccd
+dc
+git clone https://github.com/ryanoasis/nerd-fonts
+z desktop
+fc-cache -fv
+zo ~/.fonts
+zo
+cd ~/.fonts
+mkdir ~/.fonts
+cd ; vi .vimrc
+z hyquaq
+vi script.js
+rm index.js
+vi index.js
+vi index.html
+vi index.py
+npm i -g yarn
+npm install -g yarn
+vi .vim
+firefox index.html
+npm audit
+npm fund
+npm install
+git branch -l
+cd .vim/*/vim-prettier/
+ccd .vim/*/vim-prettier/
+mv index.js new.js
+mv index.js index.js
+vi index.
+vi map.vim
+cd .vim
+tree .vim
+source map.vim
+source vim.map
+mv .map.vim map.vim
+source .map.vim
+vi .map.vim
+javac test.java; java test
+vi test.java
+bash index.bash
+vi index.bash
+vi index.scss
+mv index.css index.scss
+python3 index.py
+vi index.json
+nodejs --version
+node -v
+sudo n stable
+sudo npm install -g n
+sudo npm instlal -g n
+sudo npm cache clean -f
+sudo apt install npm
+sudo install npm
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+sudo apt-get install nodejs
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash –
+sudo apt-get install python-software-properties
+sudo apt-get upgrade
+sudo apt-get update
+node –version
+node --version
+curl -sL install-node.now.sh/lts | bash
+sudo apt install nodejs
+sudo apt remove nodejs
+sudo apt install node
+java --version
+java -v
+vi src/App.js
+vi install
+vi package.json
+code .vimrc.plug
+source ~/.vimrc
+vim index.js
+vim
+sudo apt install vim
+vi --version
+cat .vimrc.plug
+mkdir ~/vimplug-plugins
+sudo curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+vi .v
+vi /etc/vim/vimrc
+cat /etc/vim/vimrc
+tree /etc/vim/
+cat /etc/vim/
+bash
+code .vimrc
+source .vimrc
+mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/color ~/.vim/plugged
+mkdir -p .vim/plug
+mv .vimrc
+rm virc
+mv vimrc .vimrc
+vi ./vimrc
+source ./vimrc
+vi ./virc
+!!
+vlc Scrum\ cơ\ bản\ _\ Quy\ trình\ phát\ triển\ phần\ mềm\ _\ Ong\ Dev-KmOKQS9u-90.webm
+vi /etc/ssh/ssh_config
+which vim
+rm comments
+vi comments
+curl "https://jsonplaceholder.typicode.com/comments" -O
+z curl
+code comments.json
+curl "https://jsonplaceholder.typicode.com/comments" -o comments.json
+code post.json
+mv post post.json
+vi post
+curl "https://jsonplaceholder.typicode.com/posts" -o post
+curl "https://jsonplaceholder.typicode.com/posts" -o
+curl "https://jsonplaceholder.typicode.com/posts"
+cat acount.txt
+curl "https://drive.google.com/file/d/17cbMWOQ8tVtfPRunKw1aN5_TYvSrsjNR/view?usp=sharing" -o acount.txt
+cd curl
+mkdir curl
+curl "https://drive.google.com/file/d/17cbMWOQ8tVtfPRunKw1aN5_TYvSrsjNR/view?usp=sharing"
+curl https://drive.google.com/file/d/17cbMWOQ8tVtfPRunKw1aN5_TYvSrsjNR/view?usp=sharing
+curl --help
+youtube-dl "https://www.youtube.com/watch?v=KmOKQS9u-90"
+sudo -H pip install --upgrade youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo apt-get udpate
+fisher list
+fisher lsit
+z
+z python
+cd python
+cd java
+zo hyquaq
+z home
+cd Desktop/hyquaq
+z -e
+cat $PATH
+cat $Z_DATA
+z --list
+z /home/huynguyen/TA\ TN
+z --help
+z /home/huynguyen/Desktop
+cd 'TA TN'
+fisher install jethrokuan/z
+fisher --help
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+vlc 'Level 1 - 24 Buổi đầu tiên'
+fzf
+'TA TN'
+tree
+tree -d 1
+tree -d --help
+tree -L
+tree --help
+tree -f src/
+tree -l src/
+tree -d src/
+tree -d
+tree -J
+tree -h
+tree -help
+Desktop/hyquaq
+./.fzf/install
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+kmplayer 01\ Track\ 1.mp3
+vlc 01\ Track\ 1.mp3
+cd Unit\ 1,\ Names\ and\ Titles/
+cd Unit\
+cd 1\ Luyện\ Nghe\ -\ BASIC\ -\ LISTENING\ LEVEL\ 1-\ TACTICS/
+cd Level\ 1\ -\ 24\ Buổi\ đầu\ tiên/
+l
+cd TA\ TN/
+youtube-dl https://www.youtube.com/watch?v=KmOKQS9u-90
+sudo apt install kmplayer
+sudo apt install kmp
+rm -rf count-day/
+ns
+cd count-day/
+git clone https://github.com/hyquaq/count-day.git
+cd. .
+cd .
+git psuh
+git commit -m "update'
+"
+rm -rf build/ .vscode/
+rm -fr node_modules/
+rm --help
+rm -ri node_modules/
+rm -r node_modules/
+npm run deploy
+cp .gitignore ../count-day/
+nrd
+cp ./src/index.css ../count-day/src/
+npm auditaudit
+npm install gh-pages
+npm aufit
+npm fundund
+cd ../hyquaq/
+npm start
+cd ../count-day/
+cp -r public src/ ../count-day/
+cp -r package.json ../count-day/
+cp src/ ../count-day/
+cp public src/ ../count-day/
+cp package.json ../count-day/
+cd hyquaq/
+git commit -m "khung ex1 lab5"
+code Node.java IntLinkedList.java
+code Test.java
+mkdir 1
+mv 1/ 3/
+tree 1/
+sudo apt install tree
+mv new1/ 1
+mv new1/ new1/
+mv 1/ 2/ 3/ 4/ 5/ new1/
+mkdir new1
+cd d ..
+git commit -m "ex2 lab5"
+cd 2; code Test.java
+git commit -m "ex3 lab5"
+mkdir 1 2 3 4 5
+cd Lab5/; code .
+mkdir Lab5
+cd java; code .
+cd Desktop//hyquaq/
+cat .bashrc
+rs
+source ~/.bashrc
+cd Desktop/hyquaq/
+cd d
+vi .bashrc
+cat ./bashrc
+sudo apt-get install preload
+sudo apt install preload
+youtube-dl "https://www.youtube.com/watch?v=7E-cwdnsiow"
+sudo pip3 install youtube-dl
+sudo apt purge youtube-dl
+pip install -U youtube-dl
+sudo apt install python3-pip
+sudo apt update
+youtube-dl --update
+youtube-dl https://www.youtube.com/watch?v=7E-cwdnsiow
+youtube-dl https://www.youtube.com/watch?v=MpD8vxfkzas
+youtube-dl -f "https://www.youtube.com/watch?v=MpD8vxfkzas"
+youtube-dl "https://www.youtube.com/watch?v=MpD8vxfkzas" -f
+youtube-dl "https://www.youtube.com/watch?v=MpD8vxfkzas"
+youtube-dl -h
+sudo apt-get install youtube-dl
+sudo apt-get install fonts-powerline
+sudo apt install font-powerline
+fish
+sudo reboot
+create-react-app my-app
+kjfkajs;klf
+sfjkasjflkasjf
+dfasjfklajslkdfja
+lasj;faklsfjalsj
+what
+cd functions/
+cat omf.fish
+cd conf.d/
+nano fish_variables
+cat fish_variables
+cat conf.d/
+cd fish
+cd .config/
+vi .config/
+lla
+set -x LANG en_US.UTF-8
+git commit -m "rename file"
+./install.sh
+cd WhiteSur-icon-theme/
+git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
+./install.sh -i fedora
+./install.sh -N mojave
+sudo ./tweaks.sh -g -b blank
+./tweaks.sh -h
+cd WhiteSur-gtk-theme/
+./tweaks.sh -d -c dark
+./tweaks.sh -d
+./tweaks.sh -f
+./install.sh -h
+./tweaks.sh -e -f
+./install.sh -c dark
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+cd .icons/
+mkdir .icons
+cd .icons
+cd ~
+firefox
+sudo apt install firefox
+sudo dpkg -i firefox-93.0.tar.bz2
+ibus-setup
+cd GKCTDL/
+code .gitignore
+code index.py
+cd Lab4/
+cd discrete\ mathematics/
+java testFraction
+javac testFraction.java
+cd tips\ \&\ trick/
+sudo apt install gnome-tweak-tool
+sudo apt install obs-studio
+sudo apt install ffmpeg
+rm ll rm lls
+cat ll
+cd ll
+rm logins.csv
+ibus-set
+sudo apt-get install ibus-unikey
+ibus restart
+git checkout main
+cd my-app/
+create-react-app --version
+sudo npm -g install create-react-app
+npm --version
+npm run start
+git commit -m "remove todo.md"
+sudo apt-get install npm
+npm -v
+sudo apt-get install openjdk-11-jdk
+sudo apt get install openjdk-11-jdk
+sudo dpkg -i code_1.61.2-1634656828_amd64.deb
+sudo dpkg --help
+sudo dpkg -h
+sudo apt autoremove gnome-software && sudo apt install gnome-software
+sudo apt autoreomve gnome-software
+sudo apt upgrade
+sudo apt clean
+sudo apt -h
+sudo apt list
+sudo apt list -h
+sudo apt list --installed
+sudo apt-get -h
+cd Downloads/
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+git config --global user.name "Huy Nguyen
+"
+git config --global user.email "hyquaq@gmail.com"
+rm todo.md
+cat todo.md
+cat README.md
+git branch ?
+git branch -h
+git checkout -h
+git checkout -hg
+git checkout gh-pages
+cd hyquaq
+git clone https://github.com/hyquaq/hyquaq.git
+git branch -a
+git brach -a
+git checkout khoa
+cd page/
+omf install bobthefish
+sudo dnf install powerline-fonts
+omf install https://github.com/cgestes/spaceFish
+mv ~/.local/share/omf/pkg/fzf/{fzf,init}.fish
+omf install fzf
+git clone https://github.com/hyquaq/page.git
+cd Desktop/k
+cd home
+omf install spacefish
+mof
+git --version
+fish install
+sudo apt-get install fonts-cascadia-code
+sudo apt install fonts-firacode
+sudo apt install git-all
+curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install > install
+chsh -s `which fish`
+sudo apt-get install curl
+sudo apt-get install fish
+chsh -s /usr/bin/fish
+chsh -s /usr/local/bin/fish
+cat /etc/shells
+echo /etc/shells
+chsh -h
+chsh -l
+lls
+llla
