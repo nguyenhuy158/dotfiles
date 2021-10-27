@@ -36,7 +36,6 @@ call plug#begin('~/.vim/plugged')
   
   Plug 'voldikss/vim-floaterm'
 
-
   Plug 'google/vim-maktaba'
   Plug 'google/vim-codefmt'
   Plug 'google/vim-glaive'
@@ -48,7 +47,7 @@ call plug#begin('~/.vim/plugged')
   endif
 
   if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   else
     Plug 'Shougo/deoplete.nvim'
     Plug 'roxma/nvim-yarp'
@@ -57,11 +56,11 @@ call plug#begin('~/.vim/plugged')
   let g:deoplete#enable_at_startup = 1
 
 
-
   "Plug 'prettier/vim-prettier', {
   " \ 'do': 'yarn install',
   " \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
   Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
 
   " HEALTHCHECK -> command checkheald
   if !has('nvim')

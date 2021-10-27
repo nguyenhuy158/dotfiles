@@ -1,10 +1,10 @@
-backup-vim
+cd
+alias
+alias bneovim
+bneovim
 code .vimrc
-nvim
-vi
 nvim ~/.config/fish/config.fish
 cp ~/.vimrc ~/.config/nvim/init.vim
-cd
 source ~/.config/fish/config.fish
 cp -p ~/.config/nvim/init.vim ~/vim/.config/nvim/
 mkdir ~/vim/.config/nvim
@@ -19,10 +19,8 @@ cp ~/.config/nvim/init.vim ~/vim/
 git push
 code vim
 vim
-z hyquaq
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-exit
 touch ~/.config/nvim/init.vim
 touch -p ~/.config/nvim/init.vim
 mkdir -p ~/.config/nvim/
@@ -31,7 +29,6 @@ sudo apt isntall neovim
 sudo apt install nvim
 vi src/App.js
 vi foo
-vi index.js
 node index.js
 sudo apt-get install fonts-open-sans
 sudo apt remove fonts-open-sans
@@ -39,7 +36,6 @@ sudo apt-get install fonts-sans-serif
 sudo apt-get install -y fonts-sans-serif
 sudo apt-get install -y fonts-open-sans
 sudo apt-get update -y
-z
 sudo snap install color-picker
 figlet -f term huy
 figlet -f standard huy
@@ -70,10 +66,8 @@ sudo apt install figlet
 sudo apt instlal figlet
 figlet
 git restore src/App.js
-ll
 git restore src/app.js
 git restore public/index.html
-..
 git log --oneline
 vi public/index.html
 git reset public/index.html
@@ -173,7 +167,6 @@ help indentifiers
 wallch
 sudo apt install wallch
 vi .vimrc.plug
-.
 touch src/components/Icon.js
 z /home/huynguyen/Desktop/hyquaq
 sudo apt install prettier
@@ -190,21 +183,16 @@ pip install jsbeautifier@1.10.1-rc2
 npm i js-beautify@1.10.1-rc2
 pip install cssbeautifier
 pip install jsbeautifier
-npm -g install js-beautify
 npm i js-beautify
 npm -g i js-beautify
 ll -a
 cp my-app/.gitignore hyquaq/
-js-beautify
 create-react-app my-app
 rm -rf my-app/
 cd my-app/
 na
 nf
 ni
-vi ~/.config/fish/config.fish
-git clone https://github.com/hyquaq/hyquaq.git
-rm -rf hyquaq/
 rm -ri hyquaq/
 rm -r hyquaq/
 pip install yapf
@@ -214,7 +202,6 @@ sudo apt install clang-format
 clang-format
 asfla
 kfasldfjas
-ls
 grep sample  sample2
 vi sample
 vi sample2
@@ -254,8 +241,6 @@ rm 1 2
 mkdir 1 2
 mkdir --help
 ll --color=auto
-code .
-gp
 clear
 sudo apt remove kmplayer
 apt remove kmplayer
@@ -263,7 +248,6 @@ apt remove kmplayer
 git status
 backup-alias
 bc-vm
-alias
 git --help git
 git --help
 git config user.name "Huy Nguyen"
@@ -335,7 +319,6 @@ cd 1
 z lab5
 z /home/huynguyen/Desktop/java/algorithm\ and\ structure/Lab5/1
 vi ~.vimrc
-python3 -m pip install pynvim
 cd algorithm\ and\ structure/
 z java
 zo /home/huynguyen/Videos
@@ -582,7 +565,6 @@ kjfkajs;klf
 sfjkasjflkasjf
 dfasjfklajslkdfja
 lasj;faklsfjalsj
-what
 cd functions/
 cat omf.fish
 cd conf.d/

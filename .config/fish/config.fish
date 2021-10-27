@@ -1,4 +1,4 @@
-alias vi="nvim"
+alias vi="bneovim && nvim"
 alias ns="npm start"
 alias ni="npm install"
 alias na="npm audit"
