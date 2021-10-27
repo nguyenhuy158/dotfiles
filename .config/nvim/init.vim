@@ -320,7 +320,16 @@ let g:floaterm_keymap_new    = '<F7>'
 let g:floaterm_keymap_prev   = '<F8>'
 let g:floaterm_keymap_next   = '<F9>'
 let g:floaterm_keymap_toggle = '<F12>'
-let g:floaterm_keymap_new = '<leader>f'
+let g:floaterm_keymap_new = '<Leader>ft' 
+let g:floaterm_keymap_prev   = '<F8>'
+let g:floaterm_keymap_next   = '<F9>'
+let g:floaterm_keymap_toggle = '<Leader>fa'
+
+hi FloatermNC guibg=gray
+command! NNN FloatermNew nnn
+command! FZF FloatermNew --width=0.8 --height=0.8 fzf
+nnoremap ff :FloatermNew --width=0.8 --height=0.8 fzf<CR> 
+nnoremap <esc><esc> :wq<cr>
 " =========================floaterm=========================
 
 
@@ -528,7 +537,7 @@ augroup END
 
 " MAP
 "" format
-nnoremap <leader>a :Prettier<CR>
+nnoremap <leader>f :Prettier<CR>
 "" delete one line
 noremap - dd
 "" c-d remove current line
