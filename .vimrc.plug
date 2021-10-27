@@ -13,6 +13,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'preservim/nerdtree'
   Plug 'preservim/nerdcommenter'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+  Plug 'Xuyuanp/nerdtree-git-plugin'
+  Plug 'kien/ctrlp.vim'
+  Plug 'mhinz/vim-startify'
   Plug 'ryanoasis/vim-devicons'
   
   " code 

@@ -14,17 +14,19 @@ set relativenumber
 
 set textwidth=80 
 set wrap
+set linebreak
+
+
 set matchtime=5 
 set showmatch
 
 set nocompatible
 set modelines=0
-set wrap
 
 set encoding=UTF-8
 set guifont=DroidSansMono\ Nerd\ Font\ 14
 
-set hlsearch
+set nohlsearch
 set nocursorcolumn
 set nocursorline
 
@@ -73,8 +75,177 @@ colorscheme onedark
 let g:fzf_preview_window='right:50%'
 let g:fzf_layout={ 'window':{ 'width':0.9, 'height':0  }  }
 
+
+" =========================NERDTREE=========================
 " PLUGIN: NERDTREE
-map <c-n> :NERDTreeToggle<CR>
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+" Start NERDTree and leave the cursor in it.
+" autocmd VimEnter * NERDTree
+
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+" Close the tab if NERDTree is the only window remaining in it.
+autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+" If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.
+autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
+    \ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
+
+" Open the existing NERDTree on each new tab.
+autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
+" Mirror the NERDTree before showing it. This makes it the same on all tabs.
+nnoremap <C-n> :NERDTreeMirror<CR>:NERDTreeFocus<CR>
+
+" change icon
+let g:NERDTreeDirArrowExpandable = '▷'
+let g:NERDTreeDirArrowCollapsible = '▽'
+" show hiddent file
+let NERDTreeShowHidden=1
+
+
+
+
+" PLUGIN: nerdtree-syntax-highlight for NERDTREE
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
+
+let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
+
+" custom color
+let s:brown = "905532"
+let s:aqua =  "3AFFDB"
+let s:blue = "689FB6"
+let s:darkBlue = "44788E"
+let s:purple = "834F79"
+let s:lightPurple = "834F79"
+let s:red = "AE403F"
+let s:beige = "F5C06F"
+let s:yellow = "F09F17"
+let s:orange = "D4843E"
+let s:darkOrange = "F16529"
+let s:pink = "CB6F6F"
+let s:salmon = "EE6E73"
+let s:green = "8FAA54"
+let s:lightGreen = "31B53E"
+let s:white = "FFFFFF"
+let s:rspec_red = 'FE405F'
+let s:git_orange = 'F54D27'
+
+let g:NERDTreeExtensionHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreeExtensionHighlightColor['css'] = s:blue " sets the color of css files to blue
+
+let g:NERDTreeExactMatchHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:git_orange " sets the color for .gitignore files
+
+let g:NERDTreePatternMatchHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreePatternMatchHighlightColor['.*_spec\.rb$'] = s:rspec_red " sets the color for files ending with _spec.rb
+
+let g:WebDevIconsDefaultFolderSymbolColor = s:beige " sets the color for folders that did not match any rule
+let g:WebDevIconsDefaultFileSymbolColor = s:blue " sets the color for files that did not match any rule
+
+let g:NERDTreeLimitedSyntax = 1
+let g:NERDTreeSyntaxDisableDefaultExtensions = 1
+let g:NERDTreeSyntaxDisableDefaultExactMatches = 1
+let g:NERDTreeSyntaxDisableDefaultPatternMatches = 1
+let g:NERDTreeSyntaxEnabledExtensions = ['js', 'css', 'html', 'md', 'java', 'py', 'json'] " enabled extensions with default colors
+let g:NERDTreeSyntaxEnabledExactMatches = ['node_modules', 'favicon.ico'] " enabled exact matches with default colors
+
+
+" PLUGIN: startify for NERDTREE
+let g:startify_custom_header = [
+\ '  __     ___             _____ _____ ',
+\ '  \ \   / (_)_ __ ___   |___  |___ / ',
+\ '   \ \ / /| | ''_ ` _ \     / /  |_ \ ',
+\ '    \ V / | | | | | | |   / /_ ___) |',
+\ '     \_/  |_|_| |_| |_|  /_/(_)____/ ',
+\ '',
+\ '',
+\ ]
+
+let g:startify_custom_header = [
+\ '      ___           ___                       ___           ___           ___                       ___           ___      ',
+\ '     /__/\         /__/\          ___        /__/\         /  /\         /__/\          ___        /  /\         /__/\     ',
+\ '     \  \:\        \  \:\        /__/|       \  \:\       /  /:/_        \  \:\        /__/|      /  /:/_        \  \:\    ',
+\ '      \__\:\        \  \:\      |  |:|        \  \:\     /  /:/ /\        \  \:\      |  |:|     /  /:/ /\        \  \:\   ',
+\ '  ___ /  /::\   ___  \  \:\     |  |:|    _____\__\:\   /  /:/_/::\   ___  \  \:\     |  |:|    /  /:/ /:/_   _____\__\:\  ',
+\ ' /__/\  /:/\:\ /__/\  \__\:\  __|__|:|   /__/::::::::\ /__/:/__\/\:\ /__/\  \__\:\  __|__|:|   /__/:/ /:/ /\ /__/::::::::\ ',
+\ ' \  \:\/:/__\/ \  \:\ /  /:/ /__/::::\   \  \:\~~\~~\/ \  \:\ /~~/:/ \  \:\ /  /:/ /__/::::\   \  \:\/:/ /:/ \  \:\~~\~~\/ ',
+\ '  \  \::/       \  \:\  /:/     ~\~~\:\   \  \:\  ~~~   \  \:\  /:/   \  \:\  /:/     ~\~~\:\   \  \::/ /:/   \  \:\  ~~~  ',
+\ '   \  \:\        \  \:\/:/        \  \:\   \  \:\        \  \:\/:/     \  \:\/:/        \  \:\   \  \:\/:/     \  \:\      ',
+\ '    \  \:\        \  \::/          \__\/    \  \:\        \  \::/       \  \::/          \__\/    \  \::/       \  \:\     ',
+\ '     \__\/         \__\/                     \__\/         \__\/         \__\/                     \__\/         \__\/     ',
+\ '',
+\ '',
+\ '',
+\ ]
+
+let g:startify_custom_header = [
+\ '   _______               _______                                     ',
+\ '   |   |   |.--.--.--.--.|    |  |.-----.--.--.--.--.-----.-----.    ',
+\ '   |       ||  |  |  |  ||       ||  _  |  |  |  |  |  -__|     |    ',
+\ '   |___|___||_____|___  ||__|____||___  |_____|___  |_____|__|__|    ',
+\ '                  |_____|         |_____|     |_____|                ',
+\ '   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+                     +-+-+-+-+   ',
+\ '   |W|e|l|c|o|m|e|t|o|m|y|h|o|u|s|e|                     |2|0|0|2|   ',
+\ '   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+                     +-+-+-+-+   ',
+\ '',
+\ '',
+\]
+
+
+" PLUGIN: ctrlp for NERDTREE
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+
+" PLUGIN: vim-devicons for NERDTREE
+let g:webdevicons_enable = 1
+let g:webdevicons_enable_nerdtree = 1
+let g:webdevicons_conceal_nerdtree_brackets = 1
+let g:webdevicons_enable_unite = 1
+let g:webdevicons_enable_denite = 1
+let g:webdevicons_enable_vimfiler = 1
+let g:webdevicons_enable_ctrlp = 1
+let g:webdevicons_enable_airline_tabline = 1
+let g:webdevicons_enable_airline_statusline = 1
+let g:webdevicons_enable_startify = 1
+let g:webdevicons_enable_flagship_statusline = 1
+let g:WebDevIconsUnicodeGlyphDoubleWidth = 1 
+let g:WebDevIconsNerdTreeAfterGlyphPadding = '  '
+let g:WebDevIconsNerdTreeGitPluginForceVAlign = 1 
+let g:WebDevIconsTabAirLineAfterGlyphPadding = ' '
+let g:WebDevIconsTabAirLineBeforeGlyphPadding = ' '
+
+
+
+" PLUGIN: nerdtree-git-plugin for NERDTREE
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'✹',
+                \ 'Staged'    :'✚',
+                \ 'Untracked' :'✭',
+                \ 'Renamed'   :'➜',
+                \ 'Unmerged'  :'═',
+                \ 'Deleted'   :'✖',
+                \ 'Dirty'     :'✗',
+                \ 'Ignored'   :'☒',
+                \ 'Clean'     :'✔︎',
+                \ 'Unknown'   :'?',
+                \ }
+let g:NERDTreeGitStatusUseNerdFonts = 1
+let g:NERDTreeGitStatusShowIgnored = 1
+let g:NERDTreeGitStatusUntrackedFilesMode = 'normal'
+let g:NERDTreeGitStatusShowClean = 1
+let g:NERDTreeGitStatusConcealBrackets = 1
+
+" =========================NERDTREE=========================
+
+
 
 
 " =========================COC=========================
@@ -234,7 +405,6 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
-" =========================COC=========================
 
 
 " CONFIG
@@ -246,6 +416,9 @@ let g:coc_global_extensions = [
 \ 'coc-prettier',
 \ 'coc-json',
 \ ]
+" =========================COC=========================
+
+
 
 packloadall
 " PLUGIN PRETTIER
@@ -265,7 +438,7 @@ autocmd FileType dart AutoFormatBuffer dartfmt
 autocmd FileType go AutoFormatBuffer gofmt
 autocmd FileType gn AutoFormatBuffer gn
 " autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
-autocmd FileType html AutoFormatBuffer js-beautify
+" autocmd FileType html AutoFormatBuffer js-beautify
 autocmd FileType java AutoFormatBuffer clang-format
 autocmd FileType python AutoFormatBuffer yapf
 " Alternative: autocmd FileType python AutoFormatBuffer autopep8

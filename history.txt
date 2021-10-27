@@ -1,3 +1,59 @@
+vi
+z hyquaq
+cd
+z
+vi src/App.js
+sudo snap install color-picker
+figlet -f term huy
+figlet -f standard huy
+figlet -f smscript hyu
+figlet -f small huy
+figlet -f slant huy
+figlet -f shadow huy
+figlet -f script huy
+figlet -f mnemonic huy
+figlet -f mini huy
+figlet -f lean huy
+figlet -f ivrit huy
+figlet -f digital huy
+figlet -f block huy
+figlet -f big huy
+figlet -f banner huy
+figlet -f bulbhead huynguyen
+figlet -f bubble huynguyen
+figlet --help
+figlet -m huy
+figlet -f --help
+figlet -f -h
+figlet -f -help
+figlet -h
+figlet -help
+figlet huy nguyen
+sudo apt install figlet
+sudo apt instlal figlet
+figlet
+git restore src/App.js
+ll
+git restore src/app.js
+git restore public/index.html
+..
+git log --oneline
+vi public/index.html
+git reset public/index.html
+gl
+exit
+ns
+z -l
+z -c
+z -h
+cd Documents/hyquaq/
+z -x hyquaq
+z /home/huynguyen/Desktop/hyquaq /home/huynguyen/Desktop/hyquaq  -x
+z -x /home/huynguyen/Desktop/hyquaq /
+z /home/huynguyen/Desktop/hyquaq -x
+node index.js
+node index.j
+backup-vim
 vi index.js
 youtube-dl "https://www.youtube.com/watch?v=FjHGZj2IjBk"
 history | grep nmap | head
@@ -12,13 +68,7 @@ vi index.scss
 pip install pynvim
 pip install pynim
 pip3 install --user pynvim
-cd
-vi src/App.js
-vi
-cd Documents/hyquaq/
-z -x hyquaq
 z --help
-z hyquaq
 vi index.markdown
 javac index.java ; java index
 rm *.java
@@ -30,7 +80,6 @@ sudo cp -r Dynamic_Wallpapers/ /usr/share/backgrounds/
 sudo !!
 cp -r Dynamic_Wallpapers/ /usr/share/backgrounds/
 cd -
-ll
 sudo cp -r ~/Downloads/Dynamic_Wallpapers/ /
 cp -r ~/Downloads/Dynamic_Wallpapers/ /
 cp ~/Downloads/Dynamic_Wallpapers/ /
@@ -45,14 +94,11 @@ pứ
 open
 o
 cd usr/share/backgrounds/
-..
 rm -rf page/
 cd page/
 cd ..
 open index.html
-gl
 ./index.html
-ns
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 sudo dpkg -i CiscoPacketTracer_801_Ubuntu_64bit.deb
 sudo apt install -f
@@ -76,7 +122,6 @@ vi foo
 touch foo bar
 vi test.java
 rm *.class
-exit
 vi StudentSort.java
 vi Student.java
 vi Test.java
@@ -98,7 +143,6 @@ code .vimrc
 source ~/.config/fish/config.fish
 wallch
 sudo apt install wallch
-backup-vim
 code vim
 vi .vimrc.plug
 .
@@ -388,7 +432,6 @@ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/you
 sudo apt-get udpate
 fisher list
 fisher lsit
-z
 z python
 cd python
 cd java
