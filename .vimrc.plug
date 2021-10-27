@@ -24,6 +24,7 @@ call plug#begin('~/.vim/plugged')
   " code 
   " Plug 'jiangmiao/auto-pairs'
   " Plug 'tpope/vim-fugitive'
+  " Plug 'Chiel92/vim-autoformat'
   
   Plug 'tpope/vim-surround'
 
@@ -33,8 +34,8 @@ call plug#begin('~/.vim/plugged')
   
   Plug 'airblade/vim-gitgutter'
   
-  Plug 'Chiel92/vim-autoformat'
   Plug 'voldikss/vim-floaterm'
+
 
   Plug 'google/vim-maktaba'
   Plug 'google/vim-codefmt'

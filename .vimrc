@@ -314,9 +314,14 @@ let g:NERDTreeGitStatusConcealBrackets = 1
 " =========================NERDTREE=========================
 
 
-" =========================AUTO PAIR=========================
-
-" =========================AUTO PAIR=========================
+" =========================floaterm=========================
+" Configuration example
+let g:floaterm_keymap_new    = '<F7>'
+let g:floaterm_keymap_prev   = '<F8>'
+let g:floaterm_keymap_next   = '<F9>'
+let g:floaterm_keymap_toggle = '<F12>'
+let g:floaterm_keymap_new = '<leader>f'
+" =========================floaterm=========================
 
 
 
@@ -523,7 +528,7 @@ augroup END
 
 " MAP
 "" format
-nnoremap <leader>f :Prettier<CR>
+nnoremap <leader>a :Prettier<CR>
 "" delete one line
 noremap - dd
 "" c-d remove current line
