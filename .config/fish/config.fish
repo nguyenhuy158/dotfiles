@@ -1,3 +1,4 @@
+alias vi="nvim"
 alias ns="npm start"
 alias ni="npm install"
 alias na="npm audit"

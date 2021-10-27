@@ -1,3 +1,10 @@
+code .vimrc
+nvim
+vi
+nvim ~/.config/fish/config.fish
+cp ~/.vimrc ~/.config/nvim/init.vim
+cd
+backup-vim
 source ~/.config/fish/config.fish
 cp -p ~/.config/nvim/init.vim ~/vim/.config/nvim/
 mkdir ~/vim/.config/nvim
@@ -5,20 +12,17 @@ cp --help
 cp -h
 cp -c ~/.config/nvim/init.vim ~/vim/.config/nvim/
 cp ~/.config/nvim/init.vim ~/vim/.config/nvim/
+code ~/.config/fish/config.fish
 neovim
 source ~/.vimrc
 cp ~/.config/nvim/init.vim ~/vim/
 git push
 code vim
-nvim ~/.config/fish/config.fish
-cd
-nvim
 vim
 z hyquaq
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 exit
-cp ~/.vimrc ~/.config/nvim/init.vim
 touch ~/.config/nvim/init.vim
 touch -p ~/.config/nvim/init.vim
 mkdir -p ~/.config/nvim/
@@ -28,7 +32,6 @@ sudo apt install nvim
 vi src/App.js
 vi foo
 vi index.js
-vi
 node index.js
 sudo apt-get install fonts-open-sans
 sudo apt remove fonts-open-sans
@@ -36,7 +39,6 @@ sudo apt-get install fonts-sans-serif
 sudo apt-get install -y fonts-sans-serif
 sudo apt-get install -y fonts-open-sans
 sudo apt-get update -y
-backup-vim
 z
 sudo snap install color-picker
 figlet -f term huy
@@ -168,7 +170,6 @@ disown PID
 bash
 help set
 help indentifiers
-code .vimrc
 wallch
 sudo apt install wallch
 vi .vimrc.plug
@@ -273,7 +274,6 @@ cd vim
 zo ~
 cdd
 backup-vimrc
-code ~/.config/fish/config.fish
 cd ~/vim
 z video
 cp ~/.config/fish/config.fish ~/vim/
