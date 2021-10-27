@@ -1,8 +1,37 @@
-vi
-z hyquaq
+source ~/.config/fish/config.fish
+neovim
+source ~/.vimrc
+cp ~/.config/nvim/init.vim ~/vim/
+git push
+code vim
+nvim ~/.config/fish/config.fish
 cd
-z
+nvim
+vim
+z hyquaq
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+exit
+cp ~/.vimrc ~/.config/nvim/init.vim
+touch ~/.config/nvim/init.vim
+touch -p ~/.config/nvim/init.vim
+mkdir -p ~/.config/nvim/
+sudo apt install neovim
+sudo apt isntall neovim
+sudo apt install nvim
 vi src/App.js
+vi foo
+vi index.js
+vi
+node index.js
+sudo apt-get install fonts-open-sans
+sudo apt remove fonts-open-sans
+sudo apt-get install fonts-sans-serif
+sudo apt-get install -y fonts-sans-serif
+sudo apt-get install -y fonts-open-sans
+sudo apt-get update -y
+backup-vim
+z
 sudo snap install color-picker
 figlet -f term huy
 figlet -f standard huy
@@ -41,7 +70,6 @@ git log --oneline
 vi public/index.html
 git reset public/index.html
 gl
-exit
 ns
 z -l
 z -c
@@ -51,10 +79,7 @@ z -x hyquaq
 z /home/huynguyen/Desktop/hyquaq /home/huynguyen/Desktop/hyquaq  -x
 z -x /home/huynguyen/Desktop/hyquaq /
 z /home/huynguyen/Desktop/hyquaq -x
-node index.js
 node index.j
-backup-vim
-vi index.js
 youtube-dl "https://www.youtube.com/watch?v=FjHGZj2IjBk"
 history | grep nmap | head
 !!
@@ -118,7 +143,6 @@ open Track\ 50.mp3
 vi .vimrc
 vi foo.html
 vi bar
-vi foo
 touch foo bar
 vi test.java
 rm *.class
@@ -136,14 +160,11 @@ disown 1
 disown job 1
 disown PID
 bash
-source ~/.vimrc
 help set
 help indentifiers
 code .vimrc
-source ~/.config/fish/config.fish
 wallch
 sudo apt install wallch
-code vim
 vi .vimrc.plug
 .
 touch src/components/Icon.js
@@ -226,7 +247,6 @@ rm 1 2
 mkdir 1 2
 mkdir --help
 ll --color=auto
-git push
 code .
 gp
 clear
@@ -383,7 +403,6 @@ vi install
 vi package.json
 code .vimrc.plug
 vim index.js
-vim
 sudo apt install vim
 vi --version
 cat .vimrc.plug
