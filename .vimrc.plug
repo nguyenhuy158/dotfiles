@@ -2,6 +2,7 @@
 " START
 call plug#begin('~/.vim/plugged')
 
+  " Plug 'sheerun/vim-polyglot'
   
   " THEMES
   Plug 'joshdick/onedark.vim'
@@ -30,6 +31,23 @@ call plug#begin('~/.vim/plugged')
   Plug 'google/vim-maktaba'
   Plug 'google/vim-codefmt'
   Plug 'google/vim-glaive'
+
+  if has('win32') || has('win64')
+    Plug 'tbodt/deoplete-tabnine', { 'do': 'powershell.exe .\install.ps1' }
+  else
+    Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
+  endif
+
+  if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  else
+    Plug 'Shougo/deoplete.nvim'
+    Plug 'roxma/nvim-yarp'
+    Plug 'roxma/vim-hug-neovim-rpc'
+  endif
+  let g:deoplete#enable_at_startup = 1
+
+
 
   "Plug 'prettier/vim-prettier', {
   " \ 'do': 'yarn install',

@@ -1,139 +1,87 @@
-" Set compatibility to Vim only.
-set nocompatible
+" CALL .vimrc.plug
+if filereadable(expand("~/.vimrc.plug"))
+	source ~/.vimrc.plug
+endif
 
-" Helps force plug-ins to load correctly when it is turned back on below.
-filetype off
 
-" Turn on syntax highlighting.
-syntax on
+" ECHO 
 
-" For plug-ins to load correctly.
-filetype plugin indent on
 
-" Turn off modelines
-set modelines=0
+" SET
+set number 
+set numberwidth=5
+set relativenumber
 
-" Automatically wrap text that extends beyond the screen length.
+set textwidth=80 
 set wrap
-" Vim's auto indentation feature does not work properly with text copied from outside of Vim. Press the <F2> key to toggle paste mode on/off.
-"UTF-8
+set matchtime=5 
+set showmatch
 
-
+set nocompatible
+set modelines=0
+set wrap
 
 set encoding=UTF-8
 set guifont=DroidSansMono\ Nerd\ Font\ 14
 
-
-" Highlight matching search patterns
 set hlsearch
-" Enable incremental search
-set incsearch
-" Include matching uppercase words with lowercase search term
-set ignorecase
-" Include only uppercase words with uppercase search term
-set smartcase
-
-" Store info from no more than 100 files at a time, 9999 lines of text, 100kb of data. Useful for copying large amounts of data between files.
-set viminfo='100,<9999,s100
-
-" Map the <Space> key to toggle a selected fold opened/closed.
-nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
-vnoremap <Space> zf
-
-" Automatically save and load folds
-autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview"
-
- " Call the .vimrc.plug file
- if filereadable(expand("~/.vimrc.plug"))
-     source ~/.vimrc.plug
- endif
-
-" air line
-let g:airline_powerline_fonts=1
-let g:airline#extension#tabline#enable=1
-
-" fzf
-"let g:fzf_preview_window='right:50%'
-"let g:fzf_layout={ 'window':{ 'width':0.9, 'height':0 } }
-
-
-" nerd tree
-map <C-n> :NERDTreeToggle<CR> 
-
-" coc
-" coc bar left show error
-set signcolumn=yes
-" create new command Prettier
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-noremap <M-f> = Prettier
-
-" remap keys for range format 
-" vmap <leader>f <Plug>(coc-format-selected)
-" nmap <leader>f <Plug>(coc-format-selected)
-
-
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-j>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-" coc config
-let g:coc_global_extensions = [
-  \ 'coc-snippets',
-  \ 'coc-pairs',
-  \ 'coc-tsserver',
-  \ 'coc-eslint',
-  \ 'coc-prettier',
-  \ 'coc-json',
-  \ ]
-
-" remve cursorline
 set nocursorcolumn
 set nocursorline
 
-" nerdcommenter
-filetype plugin on
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
-" NOTE: 
-" map: use all mode
-" map!: use in insert mode
+" AUTOCMD
+autocmd BufWinLeave *.* mkview
+" autocmd BufWinEnter *.* silent loadview"
 
-"" my map
-" show current time 
-" map <F2> :echo 'Current time is ' . strftime('%c')<CR>
-" insert current time in my code 
-" map! <F3> <C-R>=strftime('%c')<CR>
+autocmd FileType java let maplocalleader="-"
 
-packloadall
-" prettier
-let g:prettier#autoformat = 1
-let g:prettier#autoformat_require_pragma = 0
-
-
-" themes onedark
+" FILETYPE
+filetype plugin indent on
+filetype off
 syntax on
-" set theme air line
-let g:airline_theme='onedark'
-" font italic
+
+" LET 
+let mapleader="\\"
+
+
+
+" PLUGIN: AIR LINE 
+let g:airline_powerline_fonts=1
+let g:airline#extension#tabline#enable=1
+let g:airline_theme='onedark' 
 let g:onedark_terminal_italics=1
+if (has("autocmd"))
+  augroup colorextend
+    autocmd!
+    " Make `Function`s bold in GUI mode
+    autocmd ColorScheme * call onedark#extend_highlight("Function", { "gui": "bold" })
+    " Override the `Statement` foreground color in 256-color mode
+    autocmd ColorScheme * call onedark#extend_highlight("Statement", { "fg": { "cterm": 128 } })
+    " Override the `Identifier` background color in GUI mode
+    autocmd ColorScheme * call onedark#extend_highlight("Identifier", { "bg": { "gui": "#333333" } })
+  augroup END
+endif
+
 colorscheme onedark
 
-set textwidth=80
-set wrap linebreak
-" COC CONFIT
-" Set internal encoding of vim, not needed on neovim, since coc.nvim using some
-" unicode characters in the file autoload/float.vim
-set encoding=utf-8
 
-" TextEdit might fail if hidden is not set.
-set hidden
+" PLUGIN: FZF
+let g:fzf_preview_window='right:50%'
+let g:fzf_layout={ 'window':{ 'width':0.9, 'height':0  }  }
 
-" Some servers have issues with backup files, see #649.
-set nobackup
-set nowritebackup
+" PLUGIN: NERDTREE
+map <c-n> :NERDTreeToggle<CR>
 
+
+" =========================COC=========================
+" markdown
+map <leader>md :CocCommand markdown-preview-enhanced.openPreview<CR>
+
+" TAB COMPLETED
 " Give more space for displaying messages.
 set cmdheight=2
 
@@ -181,14 +129,14 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
+nmap [g <Plug>(coc-diagnostic-prev)
+nmap ]g <Plug>(coc-diagnostic-next)
 
 " GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
+nmap gd <Plug>(coc-definition)
+nmap gy <Plug>(coc-type-definition)
+nmap gi <Plug>(coc-implementation)
+nmap gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
@@ -209,9 +157,6 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
 
-" Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!
@@ -257,6 +202,7 @@ endif
 nmap <silent> <C-s> <Plug>(coc-range-select)
 xmap <silent> <C-s> <Plug>(coc-range-select)
 
+
 " Add `:Format` command to format current buffer.
 command! -nargs=0 Format :call CocAction('format')
 
@@ -288,55 +234,99 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+" =========================COC=========================
 
-let g:python3_host_prog="/path/to/python/executable/"
-noremap <F3> :Autoformat<CR>
-let g:autoformat_autoindent = 0
-let g:autoformat_retab = 0
-let g:autoformat_remove_trailing_spaces = 0
 
+" CONFIG
+let g:coc_global_extensions = [
+\ 'coc-snippets',
+\ 'coc-pairs',
+\ 'coc-tsserver',
+\ 'coc-eslint',
+\ 'coc-prettier',
+\ 'coc-json',
+\ ]
+
+packloadall
+" PLUGIN PRETTIER
+" let g:prettier#autoformat = 1
+" let g:prettier#autoformat_require_pragma = 0
+
+
+" noremap <F3> :Autoformat<cr>
+" let g:autoformat_autoindent = 0
+" let g:autoformat_retab = 0
+" let g:autoformat_remove_trailing_spaces = 0
 
 augroup autoformat_settings
-  autocmd FileType bzl AutoFormatBuffer buildifier
-  autocmd FileType c,cpp,proto,javascript,arduino AutoFormatBuffer clang-format
-  autocmd FileType dart AutoFormatBuffer dartfmt
-  autocmd FileType go AutoFormatBuffer gofmt
-  autocmd FileType gn AutoFormatBuffer gn
-  " autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
-  autocmd FileType html AutoFormatBuffer js-beautify
-  autocmd FileType java AutoFormatBuffer google-java-format
-  autocmd FileType python AutoFormatBuffer yapf
-  " Alternative: autocmd FileType python AutoFormatBuffer autopep8
-  autocmd FileType rust AutoFormatBuffer rustfmt
-  autocmd FileType vue AutoFormatBuffer prettier
+autocmd FileType bzl AutoFormatBuffer buildifier
+autocmd FileType c,cpp,proto,javascript,arduino AutoFormatBuffer clang-format
+autocmd FileType dart AutoFormatBuffer dartfmt
+autocmd FileType go AutoFormatBuffer gofmt
+autocmd FileType gn AutoFormatBuffer gn
+" autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
+autocmd FileType html AutoFormatBuffer js-beautify
+autocmd FileType java AutoFormatBuffer clang-format
+autocmd FileType python AutoFormatBuffer yapf
+" Alternative: autocmd FileType python AutoFormatBuffer autopep8
+autocmd FileType rust AutoFormatBuffer rustfmt
+autocmd FileType vue AutoFormatBuffer prettier
 augroup END
 
 
-" Create default mappings
-let g:NERDCreateDefaultMappings = 1
 
-" Add spaces after comment delimiters by default
-let g:NERDSpaceDelims = 1
+" MAP
+"" format
+nnoremap <leader>f :Prettier<CR>
+"" delete one line
+noremap - dd
+"" c-d remove current line
+inoremap <c-d> <esc>ddi
+"" UPPERCASE
+vnoremap <c-u> U
+"" remove line and enter insert mode
+nnoremap <leader>c ddO
+"" quick edit .vimrc
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+"" exit and save
+nnoremap zz :wq<cr>
+"" quit
+noremap zq :q!<cr>
+"" mapping add ", ', (, { around word
+nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
+nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
+nnoremap <leader>( viw<esc>a)<esc>hbi(<esc>lel
+nnoremap <leader>{ viw<esc>a}<esc>hbi{<esc>lel
+"" return normal mode
+inoremap jk <esc>
+"" disable keys
+inoremap <esc> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
+noremap <top> <nop>
+noremap <down> <nop>
 
-" Use compact syntax for prettified multi-line comments
-let g:NERDCompactSexyComs = 1
+"" OPERATOR-PEDING
+onoremap p i(
+onoremap b /return<cr>
+onoremap in( :<c-u>normal! f(vi(<cr>
+onoremap an( :<c-u>normal! f(va(<cr>
+onoremap in{ :<c-u>normal! f{vi{<cr>
+onoremap an{ :<c-u>normal! f{va{<cr>
 
-" Align line-wise comment delimiters flush left instead of following code indentation
-let g:NERDDefaultAlign = 'left'
+onoremap ih :<c-u>execute "normal! ?^==\\+$\r:nohlsearch\rkvg_"<cr>
 
-" Set a language to use its alternate delimiters by default
-let g:NERDAltDelims_java = 1
 
-" Add your own custom formats or override the defaults
-let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+" IABBREV abbretiations
+iabbrev adn and
+iabbrev waht what
+iabbrev tehn then
+iabbrev qname Nguyen Huy
+iabbrev qemail hyquaq@gmail.com
+iabbrev @@ hyquaq@gmail.com
+iabbrev ccopy Copyright 2021 Huy Nguyen, all rights reserved.
 
-" Allow commenting and inverting empty lines (useful when commenting a region)
-let g:NERDCommentEmptyLines = 1
 
-" Enable trimming of trailing whitespace when uncommenting
-let g:NERDTrimTrailingWhitespace = 1
 
-" Enable NERDCommenterToggle to check all selected lines is commented or not 
-let g:NERDToggleCheckAllLines = 1
 
-set textwidth=100
