@@ -1,10 +1,10 @@
+backup-vim
 code .vimrc
 nvim
 vi
 nvim ~/.config/fish/config.fish
 cp ~/.vimrc ~/.config/nvim/init.vim
 cd
-backup-vim
 source ~/.config/fish/config.fish
 cp -p ~/.config/nvim/init.vim ~/vim/.config/nvim/
 mkdir ~/vim/.config/nvim
