@@ -525,11 +525,10 @@ autocmd FileType c,cpp,proto,javascript,arduino AutoFormatBuffer clang-format
 autocmd FileType dart AutoFormatBuffer dartfmt
 autocmd FileType go AutoFormatBuffer gofmt
 autocmd FileType gn AutoFormatBuffer gn
-" autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
-" autocmd FileType html AutoFormatBuffer js-beautify
+autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
 autocmd FileType java AutoFormatBuffer clang-format
 autocmd FileType python AutoFormatBuffer yapf
-" Alternative: autocmd FileType python AutoFormatBuffer autopep8
+autocmd FileType python AutoFormatBuffer autopep8
 autocmd FileType rust AutoFormatBuffer rustfmt
 autocmd FileType vue AutoFormatBuffer prettier
 augroup END
@@ -553,7 +552,7 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 "" exit and save
 nnoremap zz :wq<cr>
 "" quit
-noremap zq :q!<cr>
+noremap qq :q!<cr>
 "" mapping add ", ', (, { around word
 nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
 nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
@@ -590,4 +589,57 @@ iabbrev ccopy Copyright 2021 Huy Nguyen, all rights reserved.
 
 
 
+" MAP ADVANCE
+if has("clipboard")
+    " CTRL-X and SHIFT-Del are Cut
+    vnoremap <C-X> "+x
+    vnoremap <S-Del> "+x
 
+    " CTRL-C and CTRL-Insert are Copy
+    vnoremap <C-C> "+y
+    vnoremap <C-Insert> "+y
+
+    " CTRL-V and SHIFT-Insert are Paste
+    map <C-V>		"+gP
+    map <S-Insert>		"+gP
+
+    cmap <C-V>		<C-R>+
+    cmap <S-Insert>		<C-R>+
+endif
+
+imap <S-Insert>		<C-V>
+vmap <S-Insert>		<C-V>
+
+" CTRL-A is Select all
+noremap <C-A> gggH<C-O>G
+inoremap <C-A> <C-O>gg<C-O>gH<C-O>G
+cnoremap <C-A> <C-C>gggH<C-O>G
+onoremap <C-A> <C-C>gggH<C-O>G
+snoremap <C-A> <C-C>gggH<C-O>G
+xnoremap <C-A> <C-C>ggVG
+
+
+" CTRL-Tab is Next window
+noremap <C-Tab> <C-W>w
+inoremap <C-Tab> <C-O><C-W>w
+cnoremap <C-Tab> <C-C><C-W>w
+onoremap <C-Tab> <C-C><C-W>w
+
+" CTRL-F4 is Close window
+noremap <C-F4> <C-W>c
+inoremap <C-F4> <C-O><C-W>c
+cnoremap <C-F4> <C-C><C-W>c
+onoremap <C-F4> <C-C><C-W>c
+
+if has("gui")
+  " CTRL-F is the search dialog
+  noremap  <expr> <C-F> has("gui_running") ? ":promptfind\<CR>" : "/"
+  inoremap <expr> <C-F> has("gui_running") ? "\<C-\>\<C-O>:promptfind\<CR>" : "\<C-\>\<C-O>/"
+  cnoremap <expr> <C-F> has("gui_running") ? "\<C-\>\<C-C>:promptfind\<CR>" : "\<C-\>\<C-O>/"
+
+  " CTRL-H is the replace dialog,
+  " but in console, it might be backspace, so don't map it there
+  nnoremap <expr> <C-H> has("gui_running") ? ":promptrepl\<CR>" : "\<C-H>"
+  inoremap <expr> <C-H> has("gui_running") ? "\<C-\>\<C-O>:promptrepl\<CR>" : "\<C-H>"
+  cnoremap <expr> <C-H> has("gui_running") ? "\<C-\>\<C-C>:promptrepl\<CR>" : "\<C-H>"
+endif

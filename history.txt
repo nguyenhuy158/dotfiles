@@ -1,8 +1,181 @@
-backup-vim
+code
+mkdir .config/neofetch -p
+mkdir .config/neofetch
+cp  ~/.config/neofetch/config.conf ~/vim/.config/neofetch/ -p
+cp  ~/.config/neofetch/config.conf ~/vim/.config/neofetch/
+ll -la
+ll
+cd vim
+.
+cd .vim
+ls ~/vim
+cp  ~/.config/neofetch/config.conf ~/vim/
+fish
+exit
+vi config.fish
+pwd
+pưd
+ls
+cd ..
+vi z.fish
+cd ~/.config/fish/conf.d/
+ls ~/.config/fish/conf.d/
+vi ~/.config/fish/config.fish
+ẽit
+javac index.java; java index
+vi index.java
+vi ~/.config/neofetch/config.conf
+cat ~/.config/neofetch/config.conf
+cat /etc/neofetch/config.conf
+sudo apt autoremove
+sudo apt install imagemagick
+jp2a KYYEUTN21857.jpg KYYEUTN21857\(1\).jpg
+jp2a KYYEUTN21857.png
+jp2a name.jpg
+sudo apt install jp2a
+kitty name.jpg
+sudo apt install kitty
+sudo apt search iterm2
+sudo apt install iTerm2
+iTerm2
+w3m name.jpg
+cd -
+sudo apt install w3m-img
+w3m-img
 cd
+cat name.jpg
+catimg desdev1.png
+cd data
+z hyquaq
+git clone https://github.com/hyquaq/hyquaq.git
+cd Documents/
+zo hyquaq
+sudo apt install catimg
+catimg
+uname -n
+uname
+sudo apt install qutebrowser
+sudo apt install qutebrower
+npm apt install qutebrower
+vi .config/fish/config.fish
+ll -lh
+cat .config/fish/config.fish
+nvim index.cpp
+vi .bashrc
+tmux
+sudo apt install tmux
+vi fzf
+cd $fish_user_paths
+echo $fish_user_paths
+echo $PATH
+echo $fish_greeting
+$fish_greeting
+help
+vi fish_user_key_bindings.fish
+vi fisher.fish
+vi __z.fish
+cd functions/
+cd .config/fish/
+nnn
+vi .fisher
+neofetch --help
+neofetch
+sudo apt install neofetch
+vi index.html
+npm install --prefix server
+cd ~/.vim/plugged/bracey.vim
+rm -r ~/.vim/bundle/bracey.vim
+rm ~/.vim/bundle/bracey.vim
+cd ~/.vim/bundle/bracey.vim
+mkdir -p ~/.vim/bundle/bracey.vim
+vi index.markdown
+vi index.json
+vi index.md
+vi index.py
+vi index.c
+vi index.js
+vi index.scss
+vi index.css
+pip3 install --user pynvim
+pip install deoplete
+rm -rf ~/.vim/plugged
+rm -r ~/.vim/plugged/deoplete.nvim/autoload/deoplete/mapping.vim
+vim index.js
+vi ~/.vim/plugged/deoplete.nvim/autoload/deoplete/mapping.vim
+cd ~/.vim/plugged/deoplete.nvim/autoload/deoplete/mapping.vim
+cd ~/.vim/plugged/deoplete.nvim/autoload/deoplete/m
+apping.vim
+npm build
+yarn build
+yarn install
+npm fund
+npm install js-beautify
+sudo npm -g install js-beautify
+sudo npm install -g yarn
+sudo npm install -g npm
+cat /home/huynguyen/.npm/_logs/2021-10-27T07_01_00_813Z-debug.log
+l
+npm install -g npm
+npm -v
+node
+npm install --global yarn
+yarn installnpm install --global yarn
+npm install yarn
+cd ~/.vim/bundle/coc.nvim
+mkdir ~/.vim/bundle/coc.nvim
+cd ~/.vim/bundle/coc.nvim
+yarn install
+yarn build
+rm -rf ~/.vim/bundle/coc.nvim/
+vi coc-extension
+backup-vim
+pip3 install pynvim
+vi
+js-beautify
+npm -g install js-beautify
+npm install -g js-beautify
+vi nnn.fish
+nnn -e
+cd fish/
+..
+cd .config/nnn/
+sudo cp nnn /bin/
+sudo make 0_NERD=1
+cd Documents/code/nnn/
+nn
+cd nnn
+git clone https://github.com/jarun/nnn.git
+rm -rf hyquaq/
+cd code
+mkdir code
+sudo apt install nnn
+yay
+sudo install strip
+sudo install make strip
+sudo make strip install
+sudo apt-get install pkg-config libncursesw5-dev libreadline-dev
+sudo apt-get install pkg-config libncursesw5-dev libreadline-dev
+sudo make strip install
+bneovim
+floaterm README.md
+gp
+code .
+git commit
+git add public/index.html
+bne
+vi index.cpp
+eixt
+jal;sjf;laskjf;alsjfalksjfaklsju
+z
+what
+jkjk
 alias
 alias bneovim
-bneovim
+nvim
+nvim index.java
+python3 -m pip install pynvim
+echo has("python3")
+echo has(python3)
 code .vimrc
 nvim ~/.config/fish/config.fish
 cp ~/.vimrc ~/.config/nvim/init.vim
@@ -90,14 +263,9 @@ history | grep nmap | head -1
 sudo apt update
 sudo apt get update
 poweroff
-vi index.py
-vi index.java
-vi index.scss
 pip install pynvim
 pip install pynim
-pip3 install --user pynvim
 z --help
-vi index.markdown
 javac index.java ; java index
 rm *.java
 java test
@@ -107,7 +275,6 @@ cat index.java
 sudo cp -r Dynamic_Wallpapers/ /usr/share/backgrounds/
 sudo !!
 cp -r Dynamic_Wallpapers/ /usr/share/backgrounds/
-cd -
 sudo cp -r ~/Downloads/Dynamic_Wallpapers/ /
 cp -r ~/Downloads/Dynamic_Wallpapers/ /
 cp ~/Downloads/Dynamic_Wallpapers/ /
@@ -117,14 +284,12 @@ cp Dynamic_Wallpapers/  /usr/share/backgrounds/
 cd ~/Downloads/
 z download
 z dowload
-pwd
 pứ
 open
 o
 cd usr/share/backgrounds/
 rm -rf page/
 cd page/
-cd ..
 open index.html
 ./index.html
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
@@ -157,7 +322,6 @@ java Cau3
 google-java-format
 vi f
 c
-ll -la
 disown
 disown 1
 disown job 1
@@ -172,7 +336,6 @@ touch src/components/Icon.js
 z /home/huynguyen/Desktop/hyquaq
 sudo apt install prettier
 npm i prettier
-vi index.json
 js-beautify -h
 js-beautify -v
 sudo apt install jsbeautifier
@@ -197,7 +360,6 @@ ni
 rm -ri hyquaq/
 rm -r hyquaq/
 pip install yapf
-vi index.c
 clang-format -h
 sudo apt install clang-format
 clang-format
@@ -225,8 +387,6 @@ utube
 sudo snap install utube
 youtube-dl "https://www.youtube.com/watch?v=vuZqot0Y4IU"
 shutdown
-vi index.html
-vi index.css
 vi index.bash
 preload
 jobs -l
@@ -255,7 +415,6 @@ git config user.name "Huy Nguyen"
 mkdir -p .vim
 mkdir -p .config/fish
 mkdir .config/fish
-cd vim
 zo ~
 cdd
 backup-vimrc
@@ -346,7 +505,6 @@ npm install -g yarn
 vi .vim
 firefox index.html
 npm audit
-npm fund
 npm install
 git branch -l
 cd .vim/*/vim-prettier/
@@ -355,7 +513,6 @@ mv index.js new.js
 mv index.js index.js
 vi index.
 vi map.vim
-cd .vim
 tree .vim
 source map.vim
 source vim.map
@@ -392,7 +549,6 @@ java -v
 vi install
 vi package.json
 code .vimrc.plug
-vim index.js
 sudo apt install vim
 vi --version
 cat .vimrc.plug
@@ -444,7 +600,6 @@ fisher lsit
 z python
 cd python
 cd java
-zo hyquaq
 z home
 cd Desktop/hyquaq
 z -e
@@ -481,7 +636,6 @@ cd Unit\ 1,\ Names\ and\ Titles/
 cd Unit\
 cd 1\ Luyện\ Nghe\ -\ BASIC\ -\ LISTENING\ LEVEL\ 1-\ TACTICS/
 cd Level\ 1\ -\ 24\ Buổi\ đầu\ tiên/
-l
 cd TA\ TN/
 youtube-dl https://www.youtube.com/watch?v=KmOKQS9u-90
 sudo apt install kmplayer
@@ -541,7 +695,6 @@ rs
 source ~/.bashrc
 cd Desktop/hyquaq/
 cd d
-vi .bashrc
 cat ./bashrc
 sudo apt-get install preload
 sudo apt install preload
@@ -560,13 +713,11 @@ youtube-dl -h
 sudo apt-get install youtube-dl
 sudo apt-get install fonts-powerline
 sudo apt install font-powerline
-fish
 sudo reboot
 kjfkajs;klf
 sfjkasjflkasjf
 dfasjfklajslkdfja
 lasj;faklsfjalsj
-cd functions/
 cat omf.fish
 cd conf.d/
 nano fish_variables
@@ -626,7 +777,6 @@ npm --version
 npm run start
 git commit -m "remove todo.md"
 sudo apt-get install npm
-npm -v
 sudo apt-get install openjdk-11-jdk
 sudo apt get install openjdk-11-jdk
 sudo dpkg -i code_1.61.2-1634656828_amd64.deb

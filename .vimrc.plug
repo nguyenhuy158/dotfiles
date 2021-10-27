@@ -27,6 +27,9 @@ call plug#begin('~/.vim/plugged')
   " Plug 'Chiel92/vim-autoformat'
   
   Plug 'tpope/vim-surround'
+  Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
+  noremap <leader>ls :Bracey<CR>
+  noremap <leader>lst :BraceyStop<CR>
 
   " Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}

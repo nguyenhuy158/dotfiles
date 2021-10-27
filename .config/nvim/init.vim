@@ -330,6 +330,7 @@ command! NNN FloatermNew nnn
 command! FZF FloatermNew --width=0.8 --height=0.8 fzf
 nnoremap ff :FloatermNew --width=0.8 --height=0.8 fzf<CR> 
 nnoremap <esc><esc> :wq<cr>
+inoremap <esc><esc> :wq<cr>
 " =========================floaterm=========================
 
 

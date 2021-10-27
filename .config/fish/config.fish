@@ -41,4 +41,5 @@ alias bcvm="backup-alias && backup-vimrc && backup-vimrcplug && backup-coc"
 alias bc1="bcvm && backup-history"
 alias backup-vim="bc1 && move-vim-code && bcnvim"
 
-
+neofetch
+set nofish_greeting
