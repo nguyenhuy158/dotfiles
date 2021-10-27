@@ -34,7 +34,7 @@ alias backup-vimrcplug="cp ~/.vimrc.plug ~/vim/"
 alias backup-coc="cp ~/.vim/coc-settings.json ~/vim/.vim/"
 alias backup-history="history > ~/vim/history.txt"
 alias bneovim="cp ~/.vimrc ~/.config/nvim/init.vim"
-alias bcnvim="bneovim && cp ~/.config/nvim/init.vim ~/vim/"
+alias bcnvim="bneovim && cp ~/.config/nvim/init.vim ~/vim/.config/nvim/"
 
 alias bcvm="backup-alias && backup-vimrc && backup-vimrcplug && backup-coc"
 alias bc1="bcvm && backup-history"

@@ -1,4 +1,10 @@
 source ~/.config/fish/config.fish
+cp -p ~/.config/nvim/init.vim ~/vim/.config/nvim/
+mkdir ~/vim/.config/nvim
+cp --help
+cp -h
+cp -c ~/.config/nvim/init.vim ~/vim/.config/nvim/
+cp ~/.config/nvim/init.vim ~/vim/.config/nvim/
 neovim
 source ~/.vimrc
 cp ~/.config/nvim/init.vim ~/vim/
