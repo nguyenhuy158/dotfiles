@@ -1,3 +1,4 @@
+backup-vim
 code vim
 .
 fish
@@ -23,7 +24,6 @@ mfile
 git clone https://github.cdnweb.icu/lepisma/cfg.git dotfiles
 ..
 vi ~/.vimrc
-backup-vim
 test (tty)
 test tty
 poweroff
