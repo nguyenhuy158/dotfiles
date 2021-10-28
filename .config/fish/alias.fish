@@ -26,11 +26,12 @@ alias ...='cd ../..'
 alias cdd="cd -"
 alias home="~"
 
-alias mkdir='mkdir -pv'
 
+alias mkdir='mkdir -pv'
 
 alias apt-get="sudo apt-get"
 alias apt="sudo apt"
+alias cp="cp -r"
 
 
 alias ga="git add"

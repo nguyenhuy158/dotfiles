@@ -1,11 +1,11 @@
 fish
+vi alias.fish
+backup-vim
 ls
 vi config.fish
 cp -r ~/.config/fish/ ~/vim/.config/
 cp -r ~/.config/fish/ ~/vim/.config/fish
 cp ~/.config/fish/ ~/vim/.config/fish
-vi alias.fish
-backup-vim
 code vim
 .
 echo $name
