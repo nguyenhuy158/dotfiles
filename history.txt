@@ -1,26 +1,165 @@
+poweroff
+audio-recorder
+sudo snap install audio-recorder --beta
+sudo apt-get install audio-recorder
+notepad-plus-plus
+sudo apt-get update
+gscan2pdf
+sudo apt install gscan2pdf
+sudo install gscan2pdf
+ktouch
+1password
+sudo snap install ktouch
+sudo snap install notepad-plus-plus
+sudo snap install 1password
+sudo apt-get install playonlinux
+apt --fix-broken install
+okular
+simple-scan
+sudo dpkg -i Simplenote-linux-2.21.0-amd64.deb
+ll
+sudo apt install etcher
+sudo snap install okular
+sudo apt install libre
+sudo apt install libreoffice
+sudo dpkg -i libobasis7.2-en-us-help_7.2.2.2-2_amd64.deb
+atom
+sudo dpkg -i atom-amd64.deb
+rm XnConvert-linux-x64.deb
+uget-gtk
+uget
+sudo apt install atom
+sudo apt install uget
+sudo apt-get install shutter
+sudo apt install shutter
+xnconvert
+sudo dpkg -i XnConvert-linux-x64.deb
+sudo apt install xnconvert
+cd Downloads/
+cd down
+handbrake
+sudo apt install handbrake
+sudo apt remove valac libgranite-dev
+valac
+libgranite-dev
+valac libgranite-dev
+sudo apt remove pick
+sudo apt remvoe pick
+pick
+colormgr
+sudo snap remove color-picker
+sudo apt remove color-picker
+color-picker
+sudo apt install valac libgranite-dev
+sudo apt install pick
+gpick
+exit
+fish
+sudo apt-get install gpick
+sudo apt-get install fonts-open-sans
+dpkg
+gcc -v
+dpkg -l
+dpkg --help
+dpkg -h
+packettracer
+sudo apt install -f
+sudo dpkg -i CiscoPacketTracer_801_Ubuntu_64bit.deb
+open tds2
+vi tds2
+cd Desktop/
+ibus-setup
+sudo apt install ttf-mscorefonts-installer
+sudo apt-get --reinstall install ttf-mscorefonts-installer
+sudo apt install fonts-time-new-roman
+rm *.js
+rm *.js *.markdown *.md
+rm *.part
+rm *.class
+ls
+rm index.*
+vi ~/.config/fish/config.fish
+youtube-dl "https://www.youtube.com/watch?v=FW2X1CXrU1w"
+sudo apt install youtube-dl
+sudo dpkg -i wps-office_11.1.0.10702.XA_amd64.deb
+sudo apt install wps
+tmux new -s session_name3
+tmux new -s session_name
+tmux new -s session_name1
+tmux attach-session -t 0
+tmux ls
+tmux list
+unset
+unset $TMUX
+sesh
+./bash.bash
+chmod +x bash.bash
+cd Music/
+mv bash.bash Music/
+vi bash.bash
+cd
+$TMUX='' tmux
+echo $TMUX
+sudo apt clean
+sudo apt remove wallch
+tmux new -s name
+tmux new
+tmux
+sudo apt install tmux
+qutebrowser
+fc-list | grep robo
+fc-cache -f
+mv *.ttf /home/huynguyen/.local/share/fonts
+unzip Roboto.zip
+rm -r static/
+rm -r sta
+cd new
+mv Roboto.zip new
+mv Roboto.zip
+..
+cd -
+rm *.*
+fc-list | grep roboto
+fc-cache -fv
+eixt
+fc-list | grep open-san
+fc-list | grep open
+mkdir -p /home/huynguyen/.local/share/fonts
+mkdir -p /home/huynguyen/.local/share
+ls /home/huynguyen/.local/share
+unzip Open_Sans.zip
+unzip open
+mv Open_Sans.zip new
+mkdir new
+mkdir
+unzip -h
+open Open_Sans.zip
+unzip Open_Sans.zip new
+.
+cd Documents/
+sudo apt install crankshaft
+sudo apt install crnakshaft
+vi home/.config
+home
+vi .config/neofetch/config.conf
+backup-vim
 code
 mkdir .config/neofetch -p
 mkdir .config/neofetch
 cp  ~/.config/neofetch/config.conf ~/vim/.config/neofetch/ -p
 cp  ~/.config/neofetch/config.conf ~/vim/.config/neofetch/
 ll -la
-ll
 cd vim
-.
 cd .vim
 ls ~/vim
 cp  ~/.config/neofetch/config.conf ~/vim/
-fish
-exit
 vi config.fish
 pwd
 pưd
-ls
 cd ..
 vi z.fish
 cd ~/.config/fish/conf.d/
 ls ~/.config/fish/conf.d/
-vi ~/.config/fish/config.fish
 ẽit
 javac index.java; java index
 vi index.java
@@ -39,16 +178,13 @@ sudo apt search iterm2
 sudo apt install iTerm2
 iTerm2
 w3m name.jpg
-cd -
 sudo apt install w3m-img
 w3m-img
-cd
 cat name.jpg
 catimg desdev1.png
 cd data
 z hyquaq
 git clone https://github.com/hyquaq/hyquaq.git
-cd Documents/
 zo hyquaq
 sudo apt install catimg
 catimg
@@ -62,8 +198,6 @@ ll -lh
 cat .config/fish/config.fish
 nvim index.cpp
 vi .bashrc
-tmux
-sudo apt install tmux
 vi fzf
 cd $fish_user_paths
 echo $fish_user_paths
@@ -128,7 +262,6 @@ yarn install
 yarn build
 rm -rf ~/.vim/bundle/coc.nvim/
 vi coc-extension
-backup-vim
 pip3 install pynvim
 vi
 js-beautify
@@ -137,7 +270,6 @@ npm install -g js-beautify
 vi nnn.fish
 nnn -e
 cd fish/
-..
 cd .config/nnn/
 sudo cp nnn /bin/
 sudo make 0_NERD=1
@@ -164,7 +296,6 @@ git commit
 git add public/index.html
 bne
 vi index.cpp
-eixt
 jal;sjf;laskjf;alsjfalksjfaklsju
 z
 what
@@ -204,7 +335,6 @@ sudo apt install nvim
 vi src/App.js
 vi foo
 node index.js
-sudo apt-get install fonts-open-sans
 sudo apt remove fonts-open-sans
 sudo apt-get install fonts-sans-serif
 sudo apt-get install -y fonts-sans-serif
@@ -262,7 +392,6 @@ history | grep nmap | head
 history | grep nmap | head -1
 sudo apt update
 sudo apt get update
-poweroff
 pip install pynvim
 pip install pynim
 z --help
@@ -293,8 +422,6 @@ cd page/
 open index.html
 ./index.html
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
-sudo dpkg -i CiscoPacketTracer_801_Ubuntu_64bit.deb
-sudo apt install -f
 mv EATINGo.mp4 Desktop/
 cd /home/huynguyen
 openshot-qt
@@ -313,7 +440,6 @@ vi foo.html
 vi bar
 touch foo bar
 vi test.java
-rm *.class
 vi StudentSort.java
 vi Student.java
 vi Test.java
@@ -436,7 +562,6 @@ tree vim
 tree vm
 cp ~/.config/fish/config.fish ./vim
 git checkout -b vim
-cd Desktop/
 cd demo
 cd /
 cd 1/
@@ -492,7 +617,6 @@ ccd
 dc
 git clone https://github.com/ryanoasis/nerd-fonts
 z desktop
-fc-cache -fv
 zo ~/.fonts
 zo
 cd ~/.fonts
@@ -537,7 +661,6 @@ sudo apt-get install nodejs
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash –
 sudo apt-get install python-software-properties
 sudo apt-get upgrade
-sudo apt-get update
 node –version
 node --version
 curl -sL install-node.now.sh/lts | bash
@@ -751,7 +874,6 @@ cd ~
 firefox
 sudo apt install firefox
 sudo dpkg -i firefox-93.0.tar.bz2
-ibus-setup
 cd GKCTDL/
 code .gitignore
 code index.py
@@ -785,13 +907,11 @@ sudo dpkg -h
 sudo apt autoremove gnome-software && sudo apt install gnome-software
 sudo apt autoreomve gnome-software
 sudo apt upgrade
-sudo apt clean
 sudo apt -h
 sudo apt list
 sudo apt list -h
 sudo apt list --installed
 sudo apt-get -h
-cd Downloads/
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 git config --global user.name "Huy Nguyen
 "

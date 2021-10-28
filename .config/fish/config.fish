@@ -12,6 +12,7 @@ alias .='cd'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias cdd="cd -"
+alias home="~"
 
 alias mkdir='mkdir -pv'
 
@@ -42,4 +43,4 @@ alias bc1="bcvm && backup-history"
 alias backup-vim="bc1 && move-vim-code && bcnvim"
 
 neofetch
-set nofish_greeting
+
