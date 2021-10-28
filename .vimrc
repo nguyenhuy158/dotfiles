@@ -620,7 +620,7 @@ nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
 onoremap ah :<c-u>execute "normal! ?^==\\+\r:nohlsearch\rg_vk0"<cr>
 
 
-" set foldenable
+set foldenable
 set foldmethod=indent
 
 

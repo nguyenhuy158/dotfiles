@@ -1,7 +1,29 @@
 code vim
+.
 fish
+vi alias.fish
+vi config.fish
+echo $name
+$NAME
+touch abbrs.fish
+vi environment.fish
+ls -a
+touch alias.fish
+ll
+ls
+cd .config/fish/
 vi ~/.config/fish/config.fish
+cd
+exit
 tty
+vi
+cd count-day
+z code
+mfile
+git clone https://github.cdnweb.icu/lepisma/cfg.git dotfiles
+..
+vi ~/.vimrc
+backup-vim
 test (tty)
 test tty
 poweroff
@@ -9,20 +31,15 @@ gqp
 code .
 code
 vi ~/.vimrc.plug
-vi ~/.vimrc
 sudo snap install color-picker
 sudo apt install gcolor2
 sudo apt install color2
 sudo apt instlal color2
 sudo apt instlal color
 sudo apt remove gpick
-exit
 ext
 ns
 ni
-vi
-cd count-day
-z code
 fis
 tty -eq '/dev/pts/0'
 $name = tty
@@ -37,15 +54,12 @@ who
 cd count-day/
 vi .vimrc.plug
 vi .vimrc
-cd
 qutebrowser
 shutdown --help
 shutdown -h
 shutdown 1
 shutdown 1s
 shutdown
-mfile
-ll
 cd Documents/
 cd doc
 top
@@ -62,9 +76,7 @@ git restore styles/app.sass
 vi styles/app.sass
 sass -w styles/app.sass styles/render.css
 ls styles/
-ls
 cd desdev-ex7
-..
 cd -
 mv desdev-ex7/ ../
 dc desdev-ex7
@@ -107,7 +119,6 @@ git clone https://github.com/hyquaq/count-day.git
 git clone https://github.com/hyquaq/hyquaq.git
 ls ~/.vim/color
 ls ~/.vim
-backup-vim
 mv dotfiles/ vim
 firefox
 git clone https://github.com/hyquaq/vim.git dotfiles
@@ -254,7 +265,6 @@ mkdir
 unzip -h
 open Open_Sans.zip
 unzip Open_Sans.zip new
-.
 sudo apt install crankshaft
 sudo apt install crnakshaft
 vi home/.config
@@ -268,7 +278,6 @@ ll -la
 cd .vim
 ls ~/vim
 cp  ~/.config/neofetch/config.conf ~/vim/
-vi config.fish
 pwd
 pưd
 cd ..
@@ -320,7 +329,6 @@ vi fish_user_key_bindings.fish
 vi fisher.fish
 vi __z.fish
 cd functions/
-cd .config/fish/
 nnn
 vi .fisher
 neofetch --help

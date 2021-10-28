@@ -110,7 +110,7 @@ colorscheme one
 
 " PLUGIN: FZF
 let g:fzf_preview_window='right:50%'
-let g:fzf_layout={ 'window':{ 'width':0.9, 'height':0  }  }
+let g:fzf_layout={ 'window':{ 'width':0.9, 'height':0.6  }  }
 
 " PLUGIN: auto-save
 let g:auto_save=1
@@ -330,15 +330,19 @@ let g:floaterm_keymap_new    = '<F7>'
 let g:floaterm_keymap_prev   = '<F8>'
 let g:floaterm_keymap_next   = '<F9>'
 let g:floaterm_keymap_toggle = '<F12>'
-let g:floaterm_keymap_new = '<Leader>ft' 
+let g:floaterm_keymap_new = '<Leader>ft'
 let g:floaterm_keymap_prev   = '<F8>'
 let g:floaterm_keymap_next   = '<F9>'
 let g:floaterm_keymap_toggle = '<Leader>fa'
 
+
+
 hi FloatermNC guibg=gray
 command! NNN FloatermNew nnn
 command! FZF FloatermNew --width=0.8 --height=0.8 fzf
-nnoremap ff :FloatermNew --width=0.8 --height=0.8 fzf<CR> 
+nnoremap ff :FloatermNew --width=0.8 --height=0.8 --name=search fzf<CR> 
+nnoremap <leader>ft :FloatermNew --height=0.8 --width=0.8 --wintype=float --name=hyquaq<cr>
+nnoremap ft :FloatermNew --height=0.8 --width=0.8 --wintype=float --name=hyquaq<cr>
 nnoremap <esc><esc> :wq<cr>
 inoremap <esc><esc> :wq<cr>
 " =========================floaterm=========================
@@ -616,6 +620,8 @@ nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
 onoremap ah :<c-u>execute "normal! ?^==\\+\r:nohlsearch\rg_vk0"<cr>
 
 
+" set foldenable
+set foldmethod=indent
 
 
 
@@ -674,4 +680,11 @@ if has("gui")
   inoremap <expr> <C-H> has("gui_running") ? "\<C-\>\<C-O>:promptrepl\<CR>" : "\<C-H>"
   cnoremap <expr> <C-H> has("gui_running") ? "\<C-\>\<C-C>:promptrepl\<CR>" : "\<C-H>"
 endif
+
+let g:user_emmet_settings = {
+  \ 'javascript' : {
+  \   'extensions': 'js',
+  \ },
+  \ }
+
 
