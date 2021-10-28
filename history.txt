@@ -1,3 +1,37 @@
+code vim
+mv dotfiles/ vim
+ls
+firefox
+qutebrowser
+git clone https://github.com/hyquaq/vim.git dotfiles
+rm vim dotfiles -rf
+git clone https://github.com/hyquaq/vim.git
+rm vim dotfiles -r
+rm vim dotfiles
+ls ~/.vim
+cd
+vi ~/.vimrc
+exit
+quutebrower
+vi index.js
+vi index.javascript
+vi index.py
+vi index.java
+vi ~/.vimrc.plug
+open 1e3560dbe811d57400b2a6db9a764673_Learn\ Vimscript\ the\ Hard\ Way.pdf
+cd Downloads/
+z code
+cd code
+mkdir code
+cd Documents/
+vi .vimrc
+ẽit
+vi history.txt
+cd vim
+backup-history
+vi ~/.config/fish/config.fish
+history
+backup-vim
 poweroff
 audio-recorder
 sudo snap install audio-recorder --beta
@@ -35,7 +69,6 @@ sudo apt install shutter
 xnconvert
 sudo dpkg -i XnConvert-linux-x64.deb
 sudo apt install xnconvert
-cd Downloads/
 cd down
 handbrake
 sudo apt install handbrake
@@ -53,7 +86,6 @@ color-picker
 sudo apt install valac libgranite-dev
 sudo apt install pick
 gpick
-exit
 fish
 sudo apt-get install gpick
 sudo apt-get install fonts-open-sans
@@ -76,9 +108,7 @@ rm *.js
 rm *.js *.markdown *.md
 rm *.part
 rm *.class
-ls
 rm index.*
-vi ~/.config/fish/config.fish
 youtube-dl "https://www.youtube.com/watch?v=FW2X1CXrU1w"
 sudo apt install youtube-dl
 sudo dpkg -i wps-office_11.1.0.10702.XA_amd64.deb
@@ -97,7 +127,6 @@ chmod +x bash.bash
 cd Music/
 mv bash.bash Music/
 vi bash.bash
-cd
 $TMUX='' tmux
 echo $TMUX
 sudo apt clean
@@ -106,7 +135,6 @@ tmux new -s name
 tmux new
 tmux
 sudo apt install tmux
-qutebrowser
 fc-list | grep robo
 fc-cache -f
 mv *.ttf /home/huynguyen/.local/share/fonts
@@ -136,20 +164,17 @@ unzip -h
 open Open_Sans.zip
 unzip Open_Sans.zip new
 .
-cd Documents/
 sudo apt install crankshaft
 sudo apt install crnakshaft
 vi home/.config
 home
 vi .config/neofetch/config.conf
-backup-vim
 code
 mkdir .config/neofetch -p
 mkdir .config/neofetch
 cp  ~/.config/neofetch/config.conf ~/vim/.config/neofetch/ -p
 cp  ~/.config/neofetch/config.conf ~/vim/.config/neofetch/
 ll -la
-cd vim
 cd .vim
 ls ~/vim
 cp  ~/.config/neofetch/config.conf ~/vim/
@@ -160,9 +185,7 @@ cd ..
 vi z.fish
 cd ~/.config/fish/conf.d/
 ls ~/.config/fish/conf.d/
-ẽit
 javac index.java; java index
-vi index.java
 vi ~/.config/neofetch/config.conf
 cat ~/.config/neofetch/config.conf
 cat /etc/neofetch/config.conf
@@ -225,9 +248,7 @@ mkdir -p ~/.vim/bundle/bracey.vim
 vi index.markdown
 vi index.json
 vi index.md
-vi index.py
 vi index.c
-vi index.js
 vi index.scss
 vi index.css
 pip3 install --user pynvim
@@ -278,8 +299,6 @@ nn
 cd nnn
 git clone https://github.com/jarun/nnn.git
 rm -rf hyquaq/
-cd code
-mkdir code
 sudo apt install nnn
 yay
 sudo install strip
@@ -322,7 +341,6 @@ neovim
 source ~/.vimrc
 cp ~/.config/nvim/init.vim ~/vim/
 git push
-code vim
 vim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -435,7 +453,6 @@ open track\ 53
 open Track\ 52.mp3
 open Track\ 51.mp3
 open Track\ 50.mp3
-vi .vimrc
 vi foo.html
 vi bar
 touch foo bar
@@ -549,7 +566,6 @@ z video
 cp ~/.config/fish/config.fish ~/vim/
 gqc
 cp ~/.config/fish/config.fish vim/
-git clone https://github.com/hyquaq/vim.git
 :q
 git checkout master
 git push origin master
@@ -871,7 +887,6 @@ cd .icons/
 mkdir .icons
 cd .icons
 cd ~
-firefox
 sudo apt install firefox
 sudo dpkg -i firefox-93.0.tar.bz2
 cd GKCTDL/

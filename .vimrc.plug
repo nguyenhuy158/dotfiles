@@ -25,6 +25,7 @@ call plug#begin('~/.vim/plugged')
   " Plug 'jiangmiao/auto-pairs'
   " Plug 'tpope/vim-fugitive'
   " Plug 'Chiel92/vim-autoformat'
+  Plug 'vim-scripts/vim-auto-save'
   
   Plug 'tpope/vim-surround'
   Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
