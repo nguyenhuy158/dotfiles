@@ -14,7 +14,7 @@ set numberwidth=5
 set relativenumber
 
 set textwidth=80 
-set wrap
+set nowrap
 set linebreak
 
 
@@ -111,6 +111,16 @@ colorscheme one
 " PLUGIN: FZF
 let g:fzf_preview_window='right:50%'
 let g:fzf_layout={ 'window':{ 'width':0.9, 'height':0  }  }
+
+" PLUGIN: auto-save
+let g:auto_save=1
+let g:auto_save_in_insert_mode=0
+
+
+
+
+
+
 
 
 " =========================NERDTREE=========================
@@ -587,6 +597,27 @@ iabbrev qemail hyquaq@gmail.com
 iabbrev @@ hyquaq@gmail.com
 iabbrev ccopy Copyright 2021 Huy Nguyen, all rights reserved.
 
+" MY AUTOCMD 
+autocmd FileType javascript noremap <leader>c I//<esc>
+autocmd FileType java noremap <leader>c I// <esc>
+autocmd FileType python noremap <leader>c I# <esc>
+
+autocmd FileType html set nowrap
+
+autocmd FileType python :iabbrev iff if:<left>
+autocmd FileType javascript :iabbrev iff if ()<left>
+autocmd FileType java :iabbrev iff if ()<left>
+autocmd FileType sass :iabbrev rscs *{margin:0; padding:0; box-sizing:border-box;}<cr>
+autocmd FileType scss :iabbrev rscs *{margin:0; padding:0; box-sizing:border-box;}<cr>
+autocmd FileType css :iabbrev rscs *{margin:0; padding:0; box-sizing:border-box;}<cr>
+
+nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
+nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
+onoremap ah :<c-u>execute "normal! ?^==\\+\r:nohlsearch\rg_vk0"<cr>
+
+
+
+
 
 
 " MAP ADVANCE
@@ -643,3 +674,4 @@ if has("gui")
   inoremap <expr> <C-H> has("gui_running") ? "\<C-\>\<C-O>:promptrepl\<CR>" : "\<C-H>"
   cnoremap <expr> <C-H> has("gui_running") ? "\<C-\>\<C-C>:promptrepl\<CR>" : "\<C-H>"
 endif
+

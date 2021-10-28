@@ -21,8 +21,11 @@ alias apt-get="sudo apt-get"
 alias apt="sudo apt"
 
 
+alias ga="git add"
+alias gc="git commit -m"
 alias gp="git push"
 alias gl="git pull"
+alias gqp='git add . && git commit -m "quick commit" && git push'
 alias gqc='git add . && git commit -m "quick commit"'
 alias push-vim="gqc && gp"
 
@@ -42,5 +45,7 @@ alias bcvm="backup-alias && backup-vimrc && backup-vimrcplug && backup-coc"
 alias bc1="bcvm && backup-history"
 alias backup-vim="bc1 && move-vim-code && bcnvim"
 
-neofetch
-
+alias mfile='xdg-open .'
+if test (tty) = "/dev/pts/0"
+  neofetch
+end

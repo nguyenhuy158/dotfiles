@@ -15,7 +15,7 @@ call plug#begin('~/.vim/plugged')
   " MANAGER FILES AND FOLDER
   Plug 'preservim/nerdtree'
   Plug 'preservim/nerdcommenter'
-  Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+  " Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'kien/ctrlp.vim'
   Plug 'mhinz/vim-startify'
@@ -25,9 +25,17 @@ call plug#begin('~/.vim/plugged')
   " Plug 'jiangmiao/auto-pairs'
   " Plug 'tpope/vim-fugitive'
   " Plug 'Chiel92/vim-autoformat'
-  Plug 'vim-scripts/vim-auto-save'
+  " Plug 'vim-scripts/vim-auto-save'
+  " auto rename tag
+  Plug 'AndrewRadev/tagalong.vim'
+
+  " emmet"
+  Plug 'mattn/emmet-vim'
   
+  " change "" '' () {}
   Plug 'tpope/vim-surround'
+
+  " live sever html"
   Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
   noremap <leader>ls :Bracey<CR>
   noremap <leader>lst :BraceyStop<CR>

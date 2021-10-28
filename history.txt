@@ -1,38 +1,133 @@
 code vim
-mv dotfiles/ vim
-ls
-firefox
+fish
+vi ~/.config/fish/config.fish
+tty
+test (tty)
+test tty
+poweroff
+gqp
+code .
+code
+vi ~/.vimrc.plug
+vi ~/.vimrc
+sudo snap install color-picker
+sudo apt install gcolor2
+sudo apt install color2
+sudo apt instlal color2
+sudo apt instlal color
+sudo apt remove gpick
+exit
+ext
+ns
+ni
+vi
+cd count-day
+z code
+fis
+tty -eq '/dev/pts/0'
+$name = tty
+echo $tty
+echo tty
+who | wc -l
+echo $TERM
+echo $SHELL
+bash
+$URXVT_INSTANCES
+who
+cd count-day/
+vi .vimrc.plug
+vi .vimrc
+cd
 qutebrowser
+shutdown --help
+shutdown -h
+shutdown 1
+shutdown 1s
+shutdown
+mfile
+ll
+cd Documents/
+cd doc
+top
+source ~/.config/fish/config.fish
+vi .config/fish/config.fish
+xdg-open .
+cd Downloads/
+xdg-open file
+xdg-open
+file
+open Lab4.pdf
+vi 52000668.py
+git restore styles/app.sass
+vi styles/app.sass
+sass -w styles/app.sass styles/render.css
+ls styles/
+ls
+cd desdev-ex7
+..
+cd -
+mv desdev-ex7/ ../
+dc desdev-ex7
+dc desdev-ex6
+mv desdev-ex6/ ../
+mv desdev-ex6/ ./
+git clone https://github.com/hyquaq/desdev-ex7.git
+git clone https://github.com/hyquaq/desdev-ex6.git
+cd desdev-ex5/
+git clone https://github.com/hyquaq/desdev-ex5.git
+rm -rf desdev-ex4/
+rm desdev-ex4/
+vi styles/app.scss
+git restore index.html
+cd desdev-ex4/
+sass -w styles/app.scss styles/render.css
+npm fund
+sudo npm install -g sass
+npm install -g sass
+sudo apt install ruby-sass
+sass
+npm install sass
+git clone https://github.com/hyquaq/desdev-ex4.git
+which_term
+ping
+tty --quiet
+tty -s
+tty --version
+tty --help
+help tty
+echo $0
+vi src/App.js
+gp
+git add .
+ga
+cd hyquaq/
+vi hyquaq/
+git clone https://github.com/hyquaq/react-img.git
+git clone https://github.com/hyquaq/count-day.git
+git clone https://github.com/hyquaq/hyquaq.git
+ls ~/.vim/color
+ls ~/.vim
+backup-vim
+mv dotfiles/ vim
+firefox
 git clone https://github.com/hyquaq/vim.git dotfiles
 rm vim dotfiles -rf
 git clone https://github.com/hyquaq/vim.git
 rm vim dotfiles -r
 rm vim dotfiles
-ls ~/.vim
-cd
-vi ~/.vimrc
-exit
 quutebrower
 vi index.js
 vi index.javascript
 vi index.py
 vi index.java
-vi ~/.vimrc.plug
 open 1e3560dbe811d57400b2a6db9a764673_Learn\ Vimscript\ the\ Hard\ Way.pdf
-cd Downloads/
-z code
 cd code
 mkdir code
-cd Documents/
-vi .vimrc
 ẽit
 vi history.txt
 cd vim
 backup-history
-vi ~/.config/fish/config.fish
 history
-backup-vim
-poweroff
 audio-recorder
 sudo snap install audio-recorder --beta
 sudo apt-get install audio-recorder
@@ -51,7 +146,6 @@ apt --fix-broken install
 okular
 simple-scan
 sudo dpkg -i Simplenote-linux-2.21.0-amd64.deb
-ll
 sudo apt install etcher
 sudo snap install okular
 sudo apt install libre
@@ -86,7 +180,6 @@ color-picker
 sudo apt install valac libgranite-dev
 sudo apt install pick
 gpick
-fish
 sudo apt-get install gpick
 sudo apt-get install fonts-open-sans
 dpkg
@@ -144,8 +237,6 @@ rm -r sta
 cd new
 mv Roboto.zip new
 mv Roboto.zip
-..
-cd -
 rm *.*
 fc-list | grep roboto
 fc-cache -fv
@@ -169,7 +260,6 @@ sudo apt install crnakshaft
 vi home/.config
 home
 vi .config/neofetch/config.conf
-code
 mkdir .config/neofetch -p
 mkdir .config/neofetch
 cp  ~/.config/neofetch/config.conf ~/vim/.config/neofetch/ -p
@@ -207,7 +297,6 @@ cat name.jpg
 catimg desdev1.png
 cd data
 z hyquaq
-git clone https://github.com/hyquaq/hyquaq.git
 zo hyquaq
 sudo apt install catimg
 catimg
@@ -216,7 +305,6 @@ uname
 sudo apt install qutebrowser
 sudo apt install qutebrower
 npm apt install qutebrower
-vi .config/fish/config.fish
 ll -lh
 cat .config/fish/config.fish
 nvim index.cpp
@@ -263,7 +351,6 @@ apping.vim
 npm build
 yarn build
 yarn install
-npm fund
 npm install js-beautify
 sudo npm -g install js-beautify
 sudo npm install -g yarn
@@ -284,7 +371,6 @@ yarn build
 rm -rf ~/.vim/bundle/coc.nvim/
 vi coc-extension
 pip3 install pynvim
-vi
 js-beautify
 npm -g install js-beautify
 npm install -g js-beautify
@@ -309,8 +395,6 @@ sudo apt-get install pkg-config libncursesw5-dev libreadline-dev
 sudo make strip install
 bneovim
 floaterm README.md
-gp
-code .
 git commit
 git add public/index.html
 bne
@@ -329,7 +413,6 @@ echo has(python3)
 code .vimrc
 nvim ~/.config/fish/config.fish
 cp ~/.vimrc ~/.config/nvim/init.vim
-source ~/.config/fish/config.fish
 cp -p ~/.config/nvim/init.vim ~/vim/.config/nvim/
 mkdir ~/vim/.config/nvim
 cp --help
@@ -350,7 +433,6 @@ mkdir -p ~/.config/nvim/
 sudo apt install neovim
 sudo apt isntall neovim
 sudo apt install nvim
-vi src/App.js
 vi foo
 node index.js
 sudo apt remove fonts-open-sans
@@ -358,7 +440,6 @@ sudo apt-get install fonts-sans-serif
 sudo apt-get install -y fonts-sans-serif
 sudo apt-get install -y fonts-open-sans
 sudo apt-get update -y
-sudo snap install color-picker
 figlet -f term huy
 figlet -f standard huy
 figlet -f smscript hyu
@@ -394,7 +475,6 @@ git log --oneline
 vi public/index.html
 git reset public/index.html
 gl
-ns
 z -l
 z -c
 z -h
@@ -469,12 +549,10 @@ disown
 disown 1
 disown job 1
 disown PID
-bash
 help set
 help indentifiers
 wallch
 sudo apt install wallch
-vi .vimrc.plug
 touch src/components/Icon.js
 z /home/huynguyen/Desktop/hyquaq
 sudo apt install prettier
@@ -499,7 +577,6 @@ rm -rf my-app/
 cd my-app/
 na
 nf
-ni
 rm -ri hyquaq/
 rm -r hyquaq/
 pip install yapf
@@ -529,7 +606,6 @@ sudo apt remove ubuntu-
 utube
 sudo snap install utube
 youtube-dl "https://www.youtube.com/watch?v=vuZqot0Y4IU"
-shutdown
 vi index.bash
 preload
 jobs -l
@@ -571,7 +647,6 @@ git checkout master
 git push origin master
 git push vim
 git commit -m "backup vim"
-git add .
 mkdir vim
 rm vim
 tree vim
@@ -628,7 +703,6 @@ node new.js
 vi obj.js
 touch obj.js
 vi new.js
-top
 ccd
 dc
 git clone https://github.com/ryanoasis/nerd-fonts
@@ -780,8 +854,6 @@ youtube-dl https://www.youtube.com/watch?v=KmOKQS9u-90
 sudo apt install kmplayer
 sudo apt install kmp
 rm -rf count-day/
-cd count-day/
-git clone https://github.com/hyquaq/count-day.git
 cd. .
 cd .
 git psuh
@@ -808,7 +880,6 @@ cp -r package.json ../count-day/
 cp src/ ../count-day/
 cp public src/ ../count-day/
 cp package.json ../count-day/
-cd hyquaq/
 git commit -m "khung ex1 lab5"
 code Node.java IntLinkedList.java
 code Test.java
