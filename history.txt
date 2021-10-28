@@ -1,9 +1,13 @@
+fish
+ls
+vi config.fish
+cp -r ~/.config/fish/ ~/vim/.config/
+cp -r ~/.config/fish/ ~/vim/.config/fish
+cp ~/.config/fish/ ~/vim/.config/fish
+vi alias.fish
 backup-vim
 code vim
 .
-fish
-vi alias.fish
-vi config.fish
 echo $name
 $NAME
 touch abbrs.fish
@@ -11,7 +15,6 @@ vi environment.fish
 ls -a
 touch alias.fish
 ll
-ls
 cd .config/fish/
 vi ~/.config/fish/config.fish
 cd
