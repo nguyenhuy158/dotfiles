@@ -10,6 +10,8 @@ alias nd="npm run deploy"
 
 #}}}
 
+alias sl='ls'
+alias lsa='ls -a'
 alias c='clear'
 alias h='history'
 alias .='cd'

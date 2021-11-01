@@ -8,6 +8,6 @@ source $fish_home/environment.fish
 
 
 alias mfile='xdg-open .'
-if test (tty) = "/dev/pts/0"
+if test (tty) = "/dev/pts/10"
   neofetch
 end

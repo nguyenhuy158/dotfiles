@@ -23,14 +23,28 @@ call plug#begin('~/.vim/plugged')
   
   " code 
   " Plug 'jiangmiao/auto-pairs'
+  
   " Plug 'tpope/vim-fugitive'
   " Plug 'Chiel92/vim-autoformat'
   " Plug 'vim-scripts/vim-auto-save'
+  
   " auto rename tag
   Plug 'AndrewRadev/tagalong.vim'
 
   " emmet"
   Plug 'mattn/emmet-vim'
+
+
+  " multiple cursor"
+  Plug 'terryma/vim-multiple-cursors'
+
+
+  " copilot "
+  " Plug 'github/copilot.vim'
+  
+  " treesitter
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
+
   
   " change "" '' () {}
   Plug 'tpope/vim-surround'
@@ -42,8 +56,9 @@ call plug#begin('~/.vim/plugged')
 
   " Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
-  Plug 'junegunn/fzf', {'do' : { -> fzf#install() }}
-  Plug 'junegunn/fzf.vim'
+  " Plug 'junegunn/fzf', {'do' : { -> fzf#install() }}
+  " Plug 'junegunn/fzf.vim'
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   
   Plug 'airblade/vim-gitgutter'
   Plug 'roxma/vim-hug-neovim-rpc'

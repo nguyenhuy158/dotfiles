@@ -1,39 +1,477 @@
-fish
-vi alias.fish
-backup-vim
+git push
+git commit -m "update lab 5"
+git status
+git add .
+gs
 ls
+...
+vi 52000668.py
+python3 52000668.py
+pip install autopep8
+vi
+cd Lab5/
+exit
+git push -u origin master
+git commit -m "first page"
+npm run deploy
+z count-day
+z code
+ns
+npm audit
+npm install --save-dev sass gh-pages
+git remote add origin https://github.com/hyquaq/cv.git
+git init
+cd my-cv/
+create-react-app my-cv
+poweroff
+vi ~/.config/fish/config.fish
+git clone https://github.com/hyquaq/python
+nnn
+ll
+cd count-day
+sudo apt remove ulauncher
+sudo apt remove waybar
+sudo apt remove sway
+vi ~/.config/waybar/style.css
+waybar
+vi ~/.config/waybar/config
+vi ~/.config/sway/config
+.
+vi style.css
+vi config
+cd -
+cd ~/.config/waybar/
+cp /etc/sway/config ~/.config/sway/
+vi ~/.config/sway/style.css
+ls ~/.config/sway/
+sway
+sudo brightnessctl set 50%
+brightnessctl i
+brightnessctl g
+brightnessctl set 50%
+brightnessctl 50%
+brightnessctl --help
+brightnessctl
+sudo apt install brightnessctl
+
+bemenu
+make clients x11
+make
+pkg-config wayland
+pkg-config x11
+pkg-config curses
+sudo apt install curses
+hg clone https://hg.sr.ht/~scoopta/wofi
+loginctl
+settings
+ulauncher-toggle
+sudo apt install wmctrl
+wmctrl
+ulauncher
+sudo apt install ulauncher
+sudo apt update
+sudo apt udpate
+sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
+
+
+sudo apt install brightlight
+cat /sys/class/backlight/acpi_video0/max_brightness
+ls /sys/class/backlight/
+swaymsg gaps inner 10
+$EDITOR ~/.config/sway/config
+mkdir ~/.config/sway
+fish
+swaymsg gaps outer 10
+cd ..
+lsa
+vi ~/.config/waybar/
+man -k sway 1
+man -k sway 2
+man -k sway1
+man -k sway
+chrome
+help
+firefox
+cd /etc/xdg/waybar/
+sway -v
+sudo apt install sway
+
+wayland
+apt-get install waybar
+sudo apt install wayland
+cd
+meson build/
+meson build/ --prefix=PREFIX
+sudo apt install meson
+cd wayland
+git clone https://gitlab.freedesktop.org/wayland/wayland
+mkdir ~/.config/waybar/
+rm -rf Waybar/
+..
+sudo make install
+git clone https://github.com/Alexays/Waybar && cd Waybar
+git clone https://github.com/Alexays/Waybar && cd Waybar && sudo make install
+sudo apt install waybar
+sudo apt install \
+  clang-tidy \
+  gobject-introspection \
+  libdbusmenu-gtk3-dev \
+  libevdev-dev \
+  libfmt-dev \
+  libgirepository1.0-dev \
+  libgtk-3-dev \
+  libgtkmm-3.0-dev \
+  libinput-dev \
+  libjsoncpp-dev \
+  libmpdclient-dev \
+  libnl-3-dev \
+  libnl-genl-3-dev \
+  libpulse-dev \
+  libsigc++-2.0-dev \
+  libspdlog-dev \
+  libwayland-dev \
+  scdoc
+nn
+sudo apt install nnn
+gqp
+vi README.md
+vi Test1.java
+mv test1.java Test1.java
+javac Test.java ; java Test
+vi Test.java
+mv test.java Test.java
+java test
+javac test.java
+vi test.java
+mv readme.md README.md
+cd algorithm\ and\ structure/Lab4\ Sort/
+cd java
+git clone https://github.com/hyquaq/java
+z java
+git commit -m "guess"
+cd starter/
+cd 05-Guess-My-Number/
+xdg-open complete-javascript-course
+git clone https://github.com/jonasschmedtmann/complete-javascript-course.git
+mkdir guessMyNumber
+cd HuyNguyen/
+cd JavaScript/
+rm -rf vim-exercises/
+vi vim_ex.txt
+cd vim-exercises/
+git clone https://github.com/skilldrick/vim-exercises
+vi index.html
+vi index.py
+vi index.
+vi ~/.vimrc
+vi ~/.vimrc.plug
+tide configure
+tide
+sleep
+python3 index.py
+vim index.py
+sl
+lsas
+help set
+set org.gnome.Terminal.Legacy.Settings
+set org.gnome.Terminal.Legacy.Settings headerbar false
+gnome-shell --version
+apt install x11-utils
+sudo apt autoremove
+echo "hi"
+\d
+qutebrowser
+cd python
+git commit -m "organization folder"
+git clone https://github.com/hyquaq/python.git
+node 1.js
+vi 1.js
+node
+cd DeveloperSkill/
+mkdir DeveloperSkill
+vi mkdir DeveloperSkill
+rm -r 1
+rm 1
+node node 1.js
+mv README.md ../
+cd 1
+mkdir 1
+cd Coding\ Chanlenges
+mkdir Coding\ Chanlenges
+mv old/ before/
+mv f8\ -\ JS/ before/
+mv EvenBasicHTML/ before/
+mkdir before
+mv old HuyNguyen/
+mv EvenBasicHTML/ HuyNguyen/
+mv  f8\ -\ JS/ HuyNguyen/
+mkdir GiaBao
+mkdir HuyNguyen
+git clone https://github.com/hyquaq/JavaScript.git
+git clone gh repo clone hyquaq/JavaScript
+git clone https://github.com/hyquaq/java.git
+rm -rf java
+rm java
+gp
+git commit -m "review"
+xdg-open 3
+javac Cau3.java; java Cau3
+cd 3
+cat Cau2.java
+javac Cau2.java; java Cau2
+vi Cau2.java
+rm \&\&\ terminal
+cd 2
+javac IntLinkedList.java ; java IntLinkedList
+vi IntLinkedList.java
+vi ListInterface.java
+vi IntLinkedList.java ListInterface.java
+vi Node.java
+cd 1/
+cat README.md
+cd review/
+cd algorithm\ and\ structure/
+code .
+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
+git commit -m "lab 5"
+git add Lab5/
+cd 2/
+.cd ..
+cd .
+cd d ..
+java Sorting
+javac Sorting.java
+cd 3/
+vi index.js
+cd bash
+nvim --version
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+bash
+brew install neovim
+nvim
+./nvim-osx64/bin/nvim
+tar xzf nvim-macos.tar.gz
+curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+ls /usr/bin/editor/
+ls /usr/bin/editor
+ls /usr/vin/editor
+sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
+sudo update-alternatives --config vi
+sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
+sudo update-alternatives --config vim
+sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
+sudo update-alternatives --config editor
+sudo apt-get install python-dev python3-pip python3-dev
+sudo apt-get install python3-setuptools
+sudo easy_install3 pip
+sudo apt-get install python-dev python-pip python3-dev
+sudo apt-get install python3-setuptools
+sudo easy_install3 pip
+sudo apt-get install python-dev python3-pip python3-dev python3-pip
+sudo apt-get install python-dev python-pip python3-dev python3-pip
+gcc --version
+sudo apt-get install python-software-properties
+sudo apt-get install software-properties-common
+sudo apt install python-neovim
+sudo apt install python3-neovim
+sudo apt install neovim
+brew install gcc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/huynguyen/.profile
+absh
+mv squashfs-root / && ln -s /squashfs-root/AppRun /usr/bin/nvim
+./squashfs-root/AppRun --version
+./nvim.appimage --appimage-extract
+sudo apt install git -y
+sudo apt-get install build-essential
+sudo apt-get install buil-essential
+gcc index.cpp
+~/nvim.appimage
+vi index.cpp
+./script.sh
+script
+chmod +x script.sh
+vi .vimrc.plug
+mkdir bash
+./nvim.appimage
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+./nvim.appimage
+sudo modprobe fuse
+sudo apt install fuse
+fuse
+sudo apt install fuse
+sudo modprobe fuse
+sudo groupadd fuse
+apt install --HEAD neovim
+brew install --HEAD neovim
+z /home/huynguyen/Documents/code/count-day
+ni
+xdg-open Documents
+q
+less text
+bind > text
+more bind
+less bind
+bind
+fzf
+fzf --preview
+man fzf
+fzf --height 40% --layout reverse --info inline --border \
+    --preview 'file {}' --preview-window up,1,border-horizontal \
+    --color 'fg:#bbccdd,fg+:#ddeeff,bg:#334455,preview-bg:#223344,border:#778899'
+fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'
+$SHELL -c COMMAND
+cd conf.d/
+cd ~/.config/fish/
+cd ~/.config/fish/alias.fish
+vi ~/.config/fish/alias.fish
+fzf --preview 'cat {}'
+find * -type f | fzf > selected
+fisher remove  jorgebucaran/hydro
+cd ctrr/
+fisher list
+fisher install jorgebucaran/hydro
+rm fish_mode_prompt.fish  fish_prompt.fish
+cd .config/fish/functions/
+discord
+sudo dpkg --install discord-0.0.16.deb
+sudo apt install libc++1
+sudo apt install libappindicator1
+apt --fix-broken install
+sudo dpkg --help
+sudo dpkg -h
+sudo dpkg -i discord-0.0.16.deb
+python3 udemy-dl.py https://www.udemy.com/course/the-complete-javascript-course
+cd udemy-dl/
+python udemy-dl.py
+/bin/python3 -m pip install -U yapf
+less python3 52000668.py
+cd udemy/
+udemy-dl
+apt install ffmpeg
+udemy-dl -u baocuaai@gmail.com -p Baopro191202 https://www.udemy.com/course/the-complete-javascript-course/
+udemy-dl -u baocuaai@gmail.com -p Baopro191202
+pip install -r requirements.txt
+git clone https://github.com/r0oth3x49/udemy-dl.git
+udemy-dl -u baocuaai@gmail.com -p Baopro191202 https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/22628657?components=buy_button%2Cdiscount_expiration%2Cgift_this_course%2Cpurchase%2Cdeal_badge%2Credeem_coupon#overview
+udemy-dl -u baocuaai@gmail.com -p Baopro191202 -h https://www.udemy.com/course/the-complete-javascript-course/
+udemy-dl baocuaai@gmail.com Baopro191202
+pip install udemy-dl
+open DHTDT_CTRR_Lecture_01.pdf
+open Lab4.pdf
+z /home/huynguyen/Documents/code/ctrr
+mv Lab4.pdf ~/Documents/code/ctrr/
+cd Downloads/
+cd downloads
+z ctrr
+cd code
+cd Documents/
+mfile
+sudo apt install fzf
+peco --query
+peco -query
+peco -help
+peco
+apt install peco
+fisher install peco/peco
+fisher install jethrokuan/z
+cd Documents/code/
+l
+;s
+fisher install ilancosman/tide@v5
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+fisher list | fisher remove
+fisher update jorgebucaran/fisher
+fish list
+fisher install jorgebucaran/fisher
+fisher install fisher
+fisher install fzf
+whoami
+fisher install IlanCosman/tide@v5
+fish --version
+sudo apt-get install fish
+sudo apt-get update
+sudo apt-get udpate
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt update fish
+sudo apt install fish
+fisher remove z
+fisher remove tide
+fisher --help
+c
+y
+fisher install ilancosman/tide
+cd Music/
+cd functions/
+cd fish
+cp fish1/* fish/ -r
+cp fish1/* fish/
+mv fish1 ../
+ls fish
+mv fish1/ fish
+inde
+fi
+touch index.py
+cd tmp
+cd  temp
+mkdir tmp
+z /home/huynguyen/Documents/code
+open ex5
+touch ex5
+vi check\ attendent
+touch check\ attendent
+mkdir ctrr
+lls
+sudo apt-get install wacom-dkms
+sudo add-apt-repository ppa:doctormo/wacom-plus
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get dist-upgrade
+vim --version
+sudo apt install python3-neovim
+sudo apt install python-neovim
+sudo apt-get update
+sudo apt-get install vim
+cd vim/src
+git clone https://github.com/vim/vim.git
+sudo add-apt-repository ppa:neovim-ppa/latest
+sudo apt-get update
+sudo apt-get install neovim
+rm -r build/
+make CMAKE_BUILD_TYPE=Release
+sudo make install
+./configure
+cd nvim-linux64/
+tar xvzf nvim-linux64.tar.gz
+rm N6.zip
+uname
+less config.fish
+cd fishrc/
+git clone https://github.cdnweb.icu/phette23/fishrc.git
+$home
+vi alias.fish
 vi config.fish
 cp -r ~/.config/fish/ ~/vim/.config/
 cp -r ~/.config/fish/ ~/vim/.config/fish
 cp ~/.config/fish/ ~/vim/.config/fish
 code vim
-.
 echo $name
 $NAME
 touch abbrs.fish
 vi environment.fish
 ls -a
 touch alias.fish
-ll
 cd .config/fish/
-vi ~/.config/fish/config.fish
-cd
-exit
 tty
-vi
-cd count-day
-z code
-mfile
 git clone https://github.cdnweb.icu/lepisma/cfg.git dotfiles
-..
-vi ~/.vimrc
 test (tty)
 test tty
-poweroff
-gqp
-code .
 code
-vi ~/.vimrc.plug
 sudo snap install color-picker
 sudo apt install gcolor2
 sudo apt install color2
@@ -41,8 +479,6 @@ sudo apt instlal color2
 sudo apt instlal color
 sudo apt remove gpick
 ext
-ns
-ni
 fis
 tty -eq '/dev/pts/0'
 $name = tty
@@ -51,36 +487,28 @@ echo tty
 who | wc -l
 echo $TERM
 echo $SHELL
-bash
 $URXVT_INSTANCES
 who
 cd count-day/
-vi .vimrc.plug
 vi .vimrc
-qutebrowser
 shutdown --help
 shutdown -h
 shutdown 1
 shutdown 1s
 shutdown
-cd Documents/
 cd doc
 top
 source ~/.config/fish/config.fish
 vi .config/fish/config.fish
 xdg-open .
-cd Downloads/
 xdg-open file
 xdg-open
 file
-open Lab4.pdf
-vi 52000668.py
 git restore styles/app.sass
 vi styles/app.sass
 sass -w styles/app.sass styles/render.css
 ls styles/
 cd desdev-ex7
-cd -
 mv desdev-ex7/ ../
 dc desdev-ex7
 dc desdev-ex6
@@ -112,8 +540,6 @@ tty --help
 help tty
 echo $0
 vi src/App.js
-gp
-git add .
 ga
 cd hyquaq/
 vi hyquaq/
@@ -123,19 +549,15 @@ git clone https://github.com/hyquaq/hyquaq.git
 ls ~/.vim/color
 ls ~/.vim
 mv dotfiles/ vim
-firefox
 git clone https://github.com/hyquaq/vim.git dotfiles
 rm vim dotfiles -rf
 git clone https://github.com/hyquaq/vim.git
 rm vim dotfiles -r
 rm vim dotfiles
 quutebrower
-vi index.js
 vi index.javascript
-vi index.py
 vi index.java
 open 1e3560dbe811d57400b2a6db9a764673_Learn\ Vimscript\ the\ Hard\ Way.pdf
-cd code
 mkdir code
 ẽit
 vi history.txt
@@ -146,7 +568,6 @@ audio-recorder
 sudo snap install audio-recorder --beta
 sudo apt-get install audio-recorder
 notepad-plus-plus
-sudo apt-get update
 gscan2pdf
 sudo apt install gscan2pdf
 sudo install gscan2pdf
@@ -156,7 +577,6 @@ sudo snap install ktouch
 sudo snap install notepad-plus-plus
 sudo snap install 1password
 sudo apt-get install playonlinux
-apt --fix-broken install
 okular
 simple-scan
 sudo dpkg -i Simplenote-linux-2.21.0-amd64.deb
@@ -231,7 +651,6 @@ unset $TMUX
 sesh
 ./bash.bash
 chmod +x bash.bash
-cd Music/
 mv bash.bash Music/
 vi bash.bash
 $TMUX='' tmux
@@ -283,7 +702,6 @@ ls ~/vim
 cp  ~/.config/neofetch/config.conf ~/vim/
 pwd
 pưd
-cd ..
 vi z.fish
 cd ~/.config/fish/conf.d/
 ls ~/.config/fish/conf.d/
@@ -291,7 +709,6 @@ javac index.java; java index
 vi ~/.config/neofetch/config.conf
 cat ~/.config/neofetch/config.conf
 cat /etc/neofetch/config.conf
-sudo apt autoremove
 sudo apt install imagemagick
 jp2a KYYEUTN21857.jpg KYYEUTN21857\(1\).jpg
 jp2a KYYEUTN21857.png
@@ -313,7 +730,6 @@ zo hyquaq
 sudo apt install catimg
 catimg
 uname -n
-uname
 sudo apt install qutebrowser
 sudo apt install qutebrower
 npm apt install qutebrower
@@ -327,17 +743,13 @@ echo $fish_user_paths
 echo $PATH
 echo $fish_greeting
 $fish_greeting
-help
 vi fish_user_key_bindings.fish
 vi fisher.fish
 vi __z.fish
-cd functions/
-nnn
 vi .fisher
 neofetch --help
 neofetch
 sudo apt install neofetch
-vi index.html
 npm install --prefix server
 cd ~/.vim/plugged/bracey.vim
 rm -r ~/.vim/bundle/bracey.vim
@@ -367,10 +779,8 @@ sudo npm -g install js-beautify
 sudo npm install -g yarn
 sudo npm install -g npm
 cat /home/huynguyen/.npm/_logs/2021-10-27T07_01_00_813Z-debug.log
-l
 npm install -g npm
 npm -v
-node
 npm install --global yarn
 yarn installnpm install --global yarn
 npm install yarn
@@ -392,11 +802,9 @@ cd .config/nnn/
 sudo cp nnn /bin/
 sudo make 0_NERD=1
 cd Documents/code/nnn/
-nn
 cd nnn
 git clone https://github.com/jarun/nnn.git
 rm -rf hyquaq/
-sudo apt install nnn
 yay
 sudo install strip
 sudo install make strip
@@ -409,14 +817,12 @@ floaterm README.md
 git commit
 git add public/index.html
 bne
-vi index.cpp
 jal;sjf;laskjf;alsjfalksjfaklsju
 z
 what
 jkjk
 alias
 alias bneovim
-nvim
 nvim index.java
 python3 -m pip install pynvim
 echo has("python3")
@@ -434,14 +840,12 @@ code ~/.config/fish/config.fish
 neovim
 source ~/.vimrc
 cp ~/.config/nvim/init.vim ~/vim/
-git push
 vim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 touch ~/.config/nvim/init.vim
 touch -p ~/.config/nvim/init.vim
 mkdir -p ~/.config/nvim/
-sudo apt install neovim
 sudo apt isntall neovim
 sudo apt install nvim
 vi foo
@@ -499,15 +903,12 @@ youtube-dl "https://www.youtube.com/watch?v=FjHGZj2IjBk"
 history | grep nmap | head
 !!
 history | grep nmap | head -1
-sudo apt update
 sudo apt get update
 pip install pynvim
 pip install pynim
 z --help
 javac index.java ; java index
 rm *.java
-java test
-javac test.java
 javac test.java; java test
 cat index.java
 sudo cp -r Dynamic_Wallpapers/ /usr/share/backgrounds/
@@ -547,20 +948,16 @@ open Track\ 50.mp3
 vi foo.html
 vi bar
 touch foo bar
-vi test.java
 vi StudentSort.java
 vi Student.java
-vi Test.java
 javac Test.java; java Test
 java Cau3
 google-java-format
 vi f
-c
 disown
 disown 1
 disown job 1
 disown PID
-help set
 help indentifiers
 wallch
 sudo apt install wallch
@@ -635,8 +1032,6 @@ ll --color=auto
 clear
 sudo apt remove kmplayer
 apt remove kmplayer
-...
-git status
 backup-alias
 bc-vm
 git --help git
@@ -666,30 +1061,20 @@ cp ~/.config/fish/config.fish ./vim
 git checkout -b vim
 cd demo
 cd /
-cd 1/
-cd Lab5/
 cd ../..
 zo /home/huynguyen/Desktop/java/algorithm\ and\ structure/review/3
 javac Cau3.java
 vi Cau3.java
-cd 3/
 tree 2
 mkdir 3
 z /home/huynguyen/Desktop/java/algorithm\ and\ structure/review/2
 java Cau2
 javac Cau2.java
-vi Cau2.java
-cd 2
 mkdir 2
 tree 1
 mv *.java 1/
 mkdir 1/
-javac IntLinkedList.java ; java IntLinkedList
-vi ListInterface.java
-vi IntLinkedList.java
 javac IntLinkedList.java ; java IntLinkedList.java
-vi Node.java
-vi README.md
 touch README.md
 cd review
 mkdir review
@@ -702,12 +1087,9 @@ javac
 java IntLinkedList
 javac IntLinkedList.java
 java IntLinkedList.java
-cd 1
 z lab5
 z /home/huynguyen/Desktop/java/algorithm\ and\ structure/Lab5/1
 vi ~.vimrc
-cd algorithm\ and\ structure/
-z java
 zo /home/huynguyen/Videos
 cd Videos/
 node new.js
@@ -729,14 +1111,12 @@ npm i -g yarn
 npm install -g yarn
 vi .vim
 firefox index.html
-npm audit
 npm install
 git branch -l
 cd .vim/*/vim-prettier/
 ccd .vim/*/vim-prettier/
 mv index.js new.js
 mv index.js index.js
-vi index.
 vi map.vim
 tree .vim
 source map.vim
@@ -746,7 +1126,6 @@ source .map.vim
 vi .map.vim
 bash index.bash
 mv index.css index.scss
-python3 index.py
 nodejs --version
 node -v
 sudo n stable
@@ -760,7 +1139,6 @@ sudo npm install -g n
 sudo n stable
 sudo apt-get install nodejs
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash –
-sudo apt-get install python-software-properties
 sudo apt-get upgrade
 node –version
 node --version
@@ -818,12 +1196,8 @@ youtube-dl "https://www.youtube.com/watch?v=KmOKQS9u-90"
 sudo -H pip install --upgrade youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-sudo apt-get udpate
-fisher list
 fisher lsit
 z python
-cd python
-cd java
 z home
 cd Desktop/hyquaq
 z -e
@@ -833,11 +1207,7 @@ z --list
 z /home/huynguyen/TA\ TN
 z /home/huynguyen/Desktop
 cd 'TA TN'
-fisher install jethrokuan/z
-fisher --help
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 vlc 'Level 1 - 24 Buổi đầu tiên'
-fzf
 'TA TN'
 tree
 tree -d 1
@@ -866,7 +1236,6 @@ sudo apt install kmplayer
 sudo apt install kmp
 rm -rf count-day/
 cd. .
-cd .
 git psuh
 git commit -m "update'
 "
@@ -875,7 +1244,6 @@ rm -fr node_modules/
 rm --help
 rm -ri node_modules/
 rm -r node_modules/
-npm run deploy
 cp .gitignore ../count-day/
 nrd
 cp ./src/index.css ../count-day/src/
@@ -894,7 +1262,6 @@ cp package.json ../count-day/
 git commit -m "khung ex1 lab5"
 code Node.java IntLinkedList.java
 code Test.java
-mkdir 1
 mv 1/ 3/
 tree 1/
 sudo apt install tree
@@ -902,7 +1269,6 @@ mv new1/ 1
 mv new1/ new1/
 mv 1/ 2/ 3/ 4/ 5/ new1/
 mkdir new1
-cd d ..
 git commit -m "ex2 lab5"
 cd 2; code Test.java
 git commit -m "ex3 lab5"
@@ -940,11 +1306,9 @@ sfjkasjflkasjf
 dfasjfklajslkdfja
 lasj;faklsfjalsj
 cat omf.fish
-cd conf.d/
 nano fish_variables
 cat fish_variables
 cat conf.d/
-cd fish
 cd .config/
 vi .config/
 lla
@@ -999,8 +1363,6 @@ sudo apt-get install npm
 sudo apt-get install openjdk-11-jdk
 sudo apt get install openjdk-11-jdk
 sudo dpkg -i code_1.61.2-1634656828_amd64.deb
-sudo dpkg --help
-sudo dpkg -h
 sudo apt autoremove gnome-software && sudo apt install gnome-software
 sudo apt autoreomve gnome-software
 sudo apt upgrade
@@ -1015,7 +1377,6 @@ git config --global user.name "Huy Nguyen
 git config --global user.email "hyquaq@gmail.com"
 rm todo.md
 cat todo.md
-cat README.md
 git branch ?
 git branch -h
 git checkout -h
@@ -1043,12 +1404,10 @@ sudo apt install git-all
 curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install > install
 chsh -s `which fish`
 sudo apt-get install curl
-sudo apt-get install fish
 chsh -s /usr/bin/fish
 chsh -s /usr/local/bin/fish
 cat /etc/shells
 echo /etc/shells
 chsh -h
 chsh -l
-lls
 llla
