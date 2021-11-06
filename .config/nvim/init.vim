@@ -5,6 +5,7 @@ endif
 
 
 
+
 " ECHO 
 
 
@@ -343,8 +344,9 @@ command! FZF FloatermNew --width=0.8 --height=0.8 fzf
 nnoremap ff :FloatermNew --width=0.8 --height=0.8 --name=search fzf<CR> 
 nnoremap <leader>ft :FloatermNew --height=0.8 --width=0.8 --wintype=float --name=hyquaq<cr>
 nnoremap ft :FloatermNew --height=0.8 --width=0.8 --wintype=float --name=hyquaq<cr>
+nnoremap <c-s> :w<cr>
 nnoremap <esc><esc> :wq<cr>
-inoremap <esc><esc> :wq<cr>
+" inoremap <esc><esc> :wq<cr>
 " =========================floaterm=========================
 
 
@@ -575,7 +577,7 @@ nnoremap <leader>{ viw<esc>a}<esc>hbi{<esc>lel
 "" return normal mode
 inoremap jk <esc>
 "" disable keys
-inoremap <esc> <nop>
+" inoremap <esc> <nop>
 noremap <left> <nop>
 noremap <right> <nop>
 noremap <top> <nop>
@@ -637,15 +639,15 @@ if has("clipboard")
     vnoremap <C-Insert> "+y
 
     " CTRL-V and SHIFT-Insert are Paste
-    map <C-V>		"+gP
-    map <S-Insert>		"+gP
+    " map <C-V>		"+gP
+    " map <S-Insert>		"+gP
 
     cmap <C-V>		<C-R>+
     cmap <S-Insert>		<C-R>+
 endif
 
-imap <S-Insert>		<C-V>
-vmap <S-Insert>		<C-V>
+" inoremap <S-Insert> <C-V>
+" vmap <S-Insert>		<C-V>
 
 " CTRL-A is Select all
 noremap <C-A> gggH<C-O>G
@@ -687,4 +689,16 @@ let g:user_emmet_settings = {
   \ },
   \ }
 
+" multiple cursors
+let g:multi_cursor_use_default_mapping=0
+
+" Default mapping
+let g:multi_cursor_start_word_key      = '<C-n>'
+let g:multi_cursor_select_all_word_key = '<A-n>'
+let g:multi_cursor_start_key           = 'g<C-n>'
+let g:multi_cursor_select_all_key      = 'g<A-n>'
+let g:multi_cursor_next_key            = '<C-n>'
+let g:multi_cursor_prev_key            = '<C-p>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key            = '<Esc>'
 

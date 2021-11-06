@@ -1,34 +1,218 @@
-git push
-git commit -m "update lab 5"
-git status
-git add .
-gs
+vi ~/.config/fish/alias.fish
+unrar x -r TRINH\ BAY\ BAO\ CAO.rar
+unrar e -r TRINH\ BAY\ BAO\ CAO.rar
+unrar e r TRINH\ BAY\ BAO\ CAO.rar
+unrar er TRINH\ BAY\ BAO\ CAO.rar
+unrar e TRINH\ BAY\ BAO\ CAO.rar
 ls
+rm *.zip
+unzip -x 10k\ ePub-20200517T083332Z-001.zip
+unzip -x 1000\ ebook\ share\ chia\ sẻ.zip
+exit
+unzip -x TÔ\ HOÀI-20211101T124044Z-001.zip
+unzip --help
+unrar e TÔ\ HOÀI-20211101T124044Z-001.zip
+unrar x Developing\ Tactics\ for\ Listening.rar Developing/
+unrar x -r Developing\ Tactics\ for\ Listening.rar Developing/
+unrar help
+unrar e -r Developing\ Tactics\ for\ Listening.rar Developing/
+unrar e r Developing\ Tactics\ for\ Listening.rar Developing/
+unrar er Developing\ Tactics\ for\ Listening.rar Developing/
+unrar e Developing\ Tactics\ for\ Listening.rar Developing/
+unrar Developing\ Tactics\ for\ Listening.rar Developing/
+mkdir Developing
+unrar e Developing\ Tactics\ for\ Listening.rar  -r
+cd Downloads/
+unrar -help
+unrar --help
+unrar -h
+sudo apt install unrar
+sudo apt-get update
+sudo apt-get install synaptic
+7r Developing\ Tactics\ for\ Listening.rar
+7zr Developing\ Tactics\ for\ Listening.rar
+7z Developing\ Tactics\ for\ Listening.rar
+p7zip Developing\ Tactics\ for\ Listening.rar -c
+p7zip  --help
+p7zip Developing\ Tactics\ for\ Listening.rar
+p7zip
+sudo apt-get update  
+
+sudo apt-get install p7zip-full p7zip-rar
+sudo apt install unzip
+fusuma
+sudo apt-get install xdotool
+sudo gem install fusuma
+sudo apt-get install ruby
+sudo apt-get install libinput-tools
+newgrp input
+sudo gpasswd -a $USER input
+sudo add-apt-repository ppa:touchegg/stable
+gcc TestTaoPhim.cpp
+code TestTaoPhim.cpp
+vi TestTaoPhim.cpp
+git push
+git commit -m "ngu"
+git add .
+z java
+rm *.class
+javac Cau1.java; java Cau1
+javac Cau3.java; java Cau3
+javac Cau2.java; java Cau2
+[1;5A
+cd Documents/
+javac Practice.java ; java Practice
+cd merge\ sort/
+cd ..
+git commit -m "review quicksort"
+git status
+cd sortArray/quick\ sort/
+javac Question3.java; java Question3
+javac Question2.java ; java Question2
+cd Test/
+cd .
+javac Test.java; java Test
+javac Test.java; jsum
+javac Test.java
+javac Test.java ; java Test
+cd infix\ prefix\ posfix/
+/
+code .
+cd algorithm\ and\ structure/Lab4\ Sort/
+poweroff
+pơ
+git commit -m "update"
+eixt
+ẽitẽit
+javac Main.java; java Main
+cd insert\ sort/
+cd selection\ sort/
+cd d selection\ sort/
+cd ../..
+cd bubble\ sort/
+z /home/huynguyen/Documents/code/java/algorithm\ and\ structure/sortArray
+cd sortArray/
+cd java/algorithm\ and\ structure/
+code java/
+z c
+sudo apt-get install unrar.
+ns
+cd hyquaq/
+z code
+z hyquaq
+rm -rf /home/huynguyen/Documents/hyquaq
+pwd
+javac IntLinkedList.java ; java IntLinkedList
+javac index.java; java index
+vi index.java
+javac -version
+java -version
+sudo apt-get install openjdk-8-jdk
+sudo apt-get update
+sudo rm -rf /usr/lib/jvm/*
+sudo bash -c 'ls -d /home/*/.java' | xargs sudo rm -rf
+dpkg -l | grep ^rc | awk '{print($2)}' | xargs sudo apt-get -y purge
+dpkg-query -W -f='${binary:Package}\n' | grep -E -e '^(ia32-)?(sun|oracle)-java' -e '^openjdk-' -e '^icedtea' -e '^(default|gcj)-j(re|dk)' -e '^gcj-(.*)-j(re|dk)' -e '^java-common' | xargs sudo apt-get -y remove
+sudo apt-get -y autoremove
+npm install @mui/icons-material
+npm rebuild
+cd "/home/huynguyen/Documents/code/hyquaq/src/components"
+npm install @mui/material
+ni
+rm -rf node_modules/
+npm audit fix --force
+npm install
+npm fund
+ls node_modules/@mui/material/
+npm install @mui/material/
+vi
+cd my-cv/
+cd count-day
+npm rebuild node-sass
+..
+cd "/home/huynguyen/Documents/code/mini/youtube"
+z mini
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm install @mui/material @emotion/react @emotion/styled
+npm audit fix
+ls public/
+cd youtube/
+cd you
+git clone --single-branch -b react-mini https://github.com/safak/youtube.git
+git clone https://github.com/safak/youtube/tree/react-mini
+cd mini
+mkdir mini
+git clone --single-branch -b react-mini https://github.com/safak/youtube/tree/react-mini
+npm run deploy
+z my-cv
+npm run build
+yarn build
+git commit -m "input kit"
+git commit-m "input kit"
+git commit -m "kit button"
+ls node_modules/@mui/lab
+ls node_modules/@mui/
+npm install @mui/lab
+npm i @material-ui/lab
+vi ~/.vimrc
+npm audit
+npm whoami
+npm --help
+npm install @mui/material @emotion/react @emotion/styled
+
+nnn
+npm i rsuite --save
+
+npm i shards-react
+create-react-app --version
+node --version
+sudo n stable
+sudo n statble
+sudo npm install -g n
+sudo npm cache clean -f
+npm i @types/shards-react --save-dev
+yarn add shards-react
+
+npm i react
+cat /home/huynguyen/.npm/_logs/2021-11-01T12_00_20_013Z-debug.log
+z count-day
+kitty
+.
+z
+curl --silent --location https://deb.nodesource.com/setup_6.x | sudo bash -
+open index.html
+./ResponsivelyApp-0.17.0.AppImage
+chmod +x ResponsivelyApp-0.17.0.AppImage
+sudo rpm -i https://github.com/responsively-org/responsively-app/releases/download/v0.17.0/Responsively-App-0.17.0.x86_64.rpm
+sudo apt install rpm
+rpm
+git commit -m "readme lab5"
+vi README.md
+cd Lab5/
+git commit -m "readme lab4"
+cd Lab4/
+ls Lab4/
+cat Lab4/
+cat Lab3/README.md
+ls Lab3/
+cd discrete\ mathematics/
+cd -
+backup-vim
+git commit -m "update lab 5"
+gs
 ...
 vi 52000668.py
 python3 52000668.py
 pip install autopep8
-vi
-cd Lab5/
-exit
 git push -u origin master
 git commit -m "first page"
-npm run deploy
-z count-day
-z code
-ns
-npm audit
 npm install --save-dev sass gh-pages
 git remote add origin https://github.com/hyquaq/cv.git
 git init
-cd my-cv/
 create-react-app my-cv
-poweroff
 vi ~/.config/fish/config.fish
 git clone https://github.com/hyquaq/python
-nnn
 ll
-cd count-day
 sudo apt remove ulauncher
 sudo apt remove waybar
 sudo apt remove sway
@@ -36,10 +220,8 @@ vi ~/.config/waybar/style.css
 waybar
 vi ~/.config/waybar/config
 vi ~/.config/sway/config
-.
 vi style.css
 vi config
-cd -
 cd ~/.config/waybar/
 cp /etc/sway/config ~/.config/sway/
 vi ~/.config/sway/style.css
@@ -82,7 +264,6 @@ $EDITOR ~/.config/sway/config
 mkdir ~/.config/sway
 fish
 swaymsg gaps outer 10
-cd ..
 lsa
 vi ~/.config/waybar/
 man -k sway 1
@@ -107,7 +288,6 @@ cd wayland
 git clone https://gitlab.freedesktop.org/wayland/wayland
 mkdir ~/.config/waybar/
 rm -rf Waybar/
-..
 sudo make install
 git clone https://github.com/Alexays/Waybar && cd Waybar
 git clone https://github.com/Alexays/Waybar && cd Waybar && sudo make install
@@ -134,20 +314,16 @@ sudo apt install \
 nn
 sudo apt install nnn
 gqp
-vi README.md
 vi Test1.java
 mv test1.java Test1.java
-javac Test.java ; java Test
 vi Test.java
 mv test.java Test.java
 java test
 javac test.java
 vi test.java
 mv readme.md README.md
-cd algorithm\ and\ structure/Lab4\ Sort/
 cd java
 git clone https://github.com/hyquaq/java
-z java
 git commit -m "guess"
 cd starter/
 cd 05-Guess-My-Number/
@@ -163,7 +339,6 @@ git clone https://github.com/skilldrick/vim-exercises
 vi index.html
 vi index.py
 vi index.
-vi ~/.vimrc
 vi ~/.vimrc.plug
 tide configure
 tide
@@ -215,14 +390,11 @@ rm java
 gp
 git commit -m "review"
 xdg-open 3
-javac Cau3.java; java Cau3
 cd 3
 cat Cau2.java
-javac Cau2.java; java Cau2
 vi Cau2.java
 rm \&\&\ terminal
 cd 2
-javac IntLinkedList.java ; java IntLinkedList
 vi IntLinkedList.java
 vi ListInterface.java
 vi IntLinkedList.java ListInterface.java
@@ -231,13 +403,11 @@ cd 1/
 cat README.md
 cd review/
 cd algorithm\ and\ structure/
-code .
 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
 git commit -m "lab 5"
 git add Lab5/
 cd 2/
 .cd ..
-cd .
 cd d ..
 java Sorting
 javac Sorting.java
@@ -310,7 +480,6 @@ sudo groupadd fuse
 apt install --HEAD neovim
 brew install --HEAD neovim
 z /home/huynguyen/Documents/code/count-day
-ni
 xdg-open Documents
 q
 less text
@@ -329,7 +498,6 @@ $SHELL -c COMMAND
 cd conf.d/
 cd ~/.config/fish/
 cd ~/.config/fish/alias.fish
-vi ~/.config/fish/alias.fish
 fzf --preview 'cat {}'
 find * -type f | fzf > selected
 fisher remove  jorgebucaran/hydro
@@ -366,11 +534,9 @@ open DHTDT_CTRR_Lecture_01.pdf
 open Lab4.pdf
 z /home/huynguyen/Documents/code/ctrr
 mv Lab4.pdf ~/Documents/code/ctrr/
-cd Downloads/
 cd downloads
 z ctrr
 cd code
-cd Documents/
 mfile
 sudo apt install fzf
 peco --query
@@ -395,7 +561,6 @@ whoami
 fisher install IlanCosman/tide@v5
 fish --version
 sudo apt-get install fish
-sudo apt-get update
 sudo apt-get udpate
 sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update fish
@@ -524,7 +689,6 @@ vi styles/app.scss
 git restore index.html
 cd desdev-ex4/
 sass -w styles/app.scss styles/render.css
-npm fund
 sudo npm install -g sass
 npm install -g sass
 sudo apt install ruby-sass
@@ -541,7 +705,6 @@ help tty
 echo $0
 vi src/App.js
 ga
-cd hyquaq/
 vi hyquaq/
 git clone https://github.com/hyquaq/react-img.git
 git clone https://github.com/hyquaq/count-day.git
@@ -556,7 +719,6 @@ rm vim dotfiles -r
 rm vim dotfiles
 quutebrower
 vi index.javascript
-vi index.java
 open 1e3560dbe811d57400b2a6db9a764673_Learn\ Vimscript\ the\ Hard\ Way.pdf
 mkdir code
 ẽit
@@ -634,7 +796,6 @@ sudo apt install fonts-time-new-roman
 rm *.js
 rm *.js *.markdown *.md
 rm *.part
-rm *.class
 rm index.*
 youtube-dl "https://www.youtube.com/watch?v=FW2X1CXrU1w"
 sudo apt install youtube-dl
@@ -673,7 +834,6 @@ mv Roboto.zip
 rm *.*
 fc-list | grep roboto
 fc-cache -fv
-eixt
 fc-list | grep open-san
 fc-list | grep open
 mkdir -p /home/huynguyen/.local/share/fonts
@@ -700,12 +860,10 @@ ll -la
 cd .vim
 ls ~/vim
 cp  ~/.config/neofetch/config.conf ~/vim/
-pwd
 pưd
 vi z.fish
 cd ~/.config/fish/conf.d/
 ls ~/.config/fish/conf.d/
-javac index.java; java index
 vi ~/.config/neofetch/config.conf
 cat ~/.config/neofetch/config.conf
 cat /etc/neofetch/config.conf
@@ -725,7 +883,6 @@ w3m-img
 cat name.jpg
 catimg desdev1.png
 cd data
-z hyquaq
 zo hyquaq
 sudo apt install catimg
 catimg
@@ -772,7 +929,6 @@ cd ~/.vim/plugged/deoplete.nvim/autoload/deoplete/mapping.vim
 cd ~/.vim/plugged/deoplete.nvim/autoload/deoplete/m
 apping.vim
 npm build
-yarn build
 yarn install
 npm install js-beautify
 sudo npm -g install js-beautify
@@ -818,7 +974,6 @@ git commit
 git add public/index.html
 bne
 jal;sjf;laskjf;alsjfalksjfaklsju
-z
 what
 jkjk
 alias
@@ -929,7 +1084,6 @@ o
 cd usr/share/backgrounds/
 rm -rf page/
 cd page/
-open index.html
 ./index.html
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 mv EATINGo.mp4 Desktop/
@@ -950,7 +1104,6 @@ vi bar
 touch foo bar
 vi StudentSort.java
 vi Student.java
-javac Test.java; java Test
 java Cau3
 google-java-format
 vi f
@@ -1061,7 +1214,6 @@ cp ~/.config/fish/config.fish ./vim
 git checkout -b vim
 cd demo
 cd /
-cd ../..
 zo /home/huynguyen/Desktop/java/algorithm\ and\ structure/review/3
 javac Cau3.java
 vi Cau3.java
@@ -1082,7 +1234,6 @@ vi Test.
 vi IntLinkedList.
 java Test
 java Test.java
-javac Test.java
 javac
 java IntLinkedList
 javac IntLinkedList.java
@@ -1111,7 +1262,6 @@ npm i -g yarn
 npm install -g yarn
 vi .vim
 firefox index.html
-npm install
 git branch -l
 cd .vim/*/vim-prettier/
 ccd .vim/*/vim-prettier/
@@ -1128,10 +1278,7 @@ bash index.bash
 mv index.css index.scss
 nodejs --version
 node -v
-sudo n stable
-sudo npm install -g n
 sudo npm instlal -g n
-sudo npm cache clean -f
 sudo apt install npm
 sudo install npm
 sudo npm cache clean -f
@@ -1141,7 +1288,6 @@ sudo apt-get install nodejs
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash –
 sudo apt-get upgrade
 node –version
-node --version
 curl -sL install-node.now.sh/lts | bash
 sudo apt install nodejs
 sudo apt remove nodejs
@@ -1338,8 +1484,6 @@ sudo dpkg -i firefox-93.0.tar.bz2
 cd GKCTDL/
 code .gitignore
 code index.py
-cd Lab4/
-cd discrete\ mathematics/
 java testFraction
 javac testFraction.java
 cd tips\ \&\ trick/
@@ -1354,7 +1498,6 @@ ibus-set
 sudo apt-get install ibus-unikey
 ibus restart
 git checkout main
-create-react-app --version
 sudo npm -g install create-react-app
 npm --version
 npm run start

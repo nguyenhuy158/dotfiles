@@ -537,7 +537,8 @@ packloadall
 
 augroup autoformat_settings
 autocmd FileType bzl AutoFormatBuffer buildifier
-autocmd FileType c,cpp,proto,javascript,arduino AutoFormatBuffer clang-format
+" autocmd FileType c,cpp,proto,javascript,arduino AutoFormatBuffer clang-format
+autocmd FileType c,cpp,proto,arduino AutoFormatBuffer clang-format
 autocmd FileType dart AutoFormatBuffer dartfmt
 autocmd FileType go AutoFormatBuffer gofmt
 autocmd FileType gn AutoFormatBuffer gn
@@ -568,7 +569,7 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 "" exit and save
 nnoremap zz :wq<cr>
 "" quit
-noremap qq :q!<cr>
+" noremap qq :q!<cr>
 "" mapping add ", ', (, { around word
 nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
 nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
@@ -609,6 +610,8 @@ autocmd FileType java noremap <leader>c I// <esc>
 autocmd FileType python noremap <leader>c I# <esc>
 
 autocmd FileType html set nowrap
+autocmd FileType markdown set wrap
+autocmd FileType markdown set nofoldenable
 
 autocmd FileType python :iabbrev iff if:<left>
 autocmd FileType javascript :iabbrev iff if ()<left>

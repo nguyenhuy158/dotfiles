@@ -1,5 +1,9 @@
 alias vi="bneovim && nvim"
 
+# zip rar
+alias unrar="unrar x -r"
+alias unzip="unzip -x"
+
 # alias npm  {{{
 
 alias ns="npm start"
