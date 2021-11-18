@@ -40,6 +40,8 @@ alias apt="sudo apt"
 alias cp="cp -r"
 
 
+alias gs="git status"
+alias glog="git log --oneline"
 alias ga="git add"
 alias gc="git commit -m"
 alias gp="git push"
