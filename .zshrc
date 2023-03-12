@@ -1,5 +1,13 @@
+# my custom function
+# open files
 function open () {
   xdg-open "$@">/dev/null 2>&1
+}
+# git add -> commit -> push
+function acp() {
+  git add .
+  git commit -m "$1"
+  git push
 }
 
 alias .='cd'
@@ -12,6 +20,7 @@ ZSH_THEME_RANDOM_CANDIDATES=(
                             "robbyrussell"
                             "af-magic" 
                             "amuse"
+                            "avit"
                             "simple"
                             "gozilla"
                             "jonathan"
@@ -38,3 +47,4 @@ eval $(thefuck --alias)
 source $ZSH/oh-my-zsh.sh
 
 export LANG=en_US.UTF-8
+
