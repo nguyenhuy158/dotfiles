@@ -29,7 +29,44 @@ inoremap <c-u> <esc>viwUA
 " inoremap <leader>u <esc>viwUA
 nnoremap <c-u> viwUe
 " nnoremap <leader>u viwUe
+" quick open .vimrc
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+" quick source .vimrc
+nnoremap <leader>sv :source $MYVIMRC<cr>
+" add " and ' surround word
+nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
+nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
+nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
+vnoremap <leader>" <esc>`>a"<esc>`<i"<esc>lv`>l
+vnoremap <leader>' <esc>`>a'<esc>`<i'<esc>lv`>l
+" move to begin line with H
+nnoremap H 0
+" move to end line with L
+nnoremap L g_
+" exit insert mode
+inoremap jk <esc>
+" disable esc key
+inoremap <esc> <c-o>:echo "No esc please!!" <cr>
+" disable arrows key
+nnoremap <left> :echo "No left for you!"<cr>
+vnoremap <left> :<c-u>echo "No left for you!"<cr>
+inoremap <left> <c-o>:echo "No left for you!"<cr>
+nnoremap <right> :echo "No right for you!"<cr>
+vnoremap <right> :<c-u>echo "No right for you!"<cr>
+inoremap <right> <c-o>:echo "No right for you!"<cr>
+nnoremap <up> :echo "No up for you!"<cr>
+vnoremap <up> :<c-u>echo "No up for you!"<cr>
+inoremap <up> <c-o>:echo "No up for you!"<cr>
+nnoremap <down> :echo "No down for you!"<cr>
+vnoremap <down> :<c-u>echo "No down for you!"<cr>
+inoremap <down> <c-o>:echo "No down for you!"<cr>
 
+"==== abbreviation ====
+iabbrev adn and
+iabbrev waht what
+iabbrev tehn then
+iabbrev @@ ntqhuy2k2@gmail.com
+iabbrev ccopy Copyright 2013 Nguyen Huy, all rights reserved.
 
 " Plugins will be downloaded under the specified directory.
 call plug#begin(has( 'nvim' ) ? stdpath('data') . '/plugged' : '~/.vim/plugged')
@@ -151,7 +188,7 @@ set wildignore+=*.o,*.obj,.git,*.rbc,*.pyc,__pycache__
 let $FZF_DEFAULT_COMMAND =  "find * -path '*/\.*' -prune -o -path '**/node_modules/**' -prune -o -path 'node_modules/**' -prune -o -path 'target/**' -prune -o -path 'dist/**' -prune -o  -type f -print -o -type l -print 2> /dev/null"
 
 syntax on
-colorscheme onedark
+"colorscheme onedark
 
 let g:airline_theme='bubblegum'
 let g:airline_powerline_fonts=1
