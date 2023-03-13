@@ -12,7 +12,7 @@ function acp() {
 
 alias .='cd'
 alias lc='lolcat'
-alias dotfilesbackup="cd && cp .*rc Desktop/dotfiles/ && cd Desktop/dotfiles && acp 'update .*rc'"
+alias dotfilesbackup="cp ~/.*rc ~/Desktop/dotfiles/ && cd ~/Desktop/dotfiles && acp 'update .*rc' && cd -"
 
 
 export ZSH="$HOME/.oh-my-zsh"
