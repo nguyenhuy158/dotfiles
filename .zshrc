@@ -11,6 +11,9 @@ function acp() {
 }
 
 alias .='cd'
+alias lc='lolcat'
+alias dotfilesbackup="cd && cp .*rc Desktop/dotfiles/ && cd Desktop/dotfiles && acp 'update .*rc'"
+
 
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -20,7 +23,6 @@ ZSH_THEME_RANDOM_CANDIDATES=(
                             "robbyrussell"
                             "af-magic" 
                             "amuse"
-                            "avit"
                             "simple"
                             "gozilla"
                             "jonathan"
@@ -32,7 +34,7 @@ ZSH_THEME_RANDOM_CANDIDATES=(
 
 
 
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # see 'man strftime' for details.
@@ -40,7 +42,7 @@ HIST_STAMPS="dd.mm.yyyy"
 
 # Standard plugins -> $ZSH/plugins/
 # Custom plugins -> $ZSH_CUSTOM/plugins/
-plugins=(git bundler dotenv macos ruby kubectl emoji encode64 web-search copyfile copypath dirhistory history z colored-man-pages command-not-found wakatime zsh-wakatime zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git bundler dotenv macos ruby kubectl emoji encode64 web-search copyfile copypath dirhistory history z colored-man-pages command-not-found wakatime zsh-wakatime zsh-autosuggestions zsh-syntax-highlighting sudo vscode)
 
 eval $(thefuck --alias)
 

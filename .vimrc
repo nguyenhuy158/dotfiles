@@ -1,6 +1,6 @@
 " echom '(>ˆ.ˆ<)' 
 
-" my set lists
+"==== my set lists =====
 set number
 set textwidth=80
 set relativenumber
@@ -13,13 +13,14 @@ set tabstop=4
 set shiftwidth=4
 set autoindent
 
-" my mapping
+"==== my mapping ====
 " - : move line down
 nmap - ddpk
 " _ : move line up
 nmap _ ddkPj
 " <c-u> : uppercase current word
 imap <c-u> <esc>viwUA
+
 
 " Plugins will be downloaded under the specified directory.
 call plug#begin(has( 'nvim' ) ? stdpath('data') . '/plugged' : '~/.vim/plugged')
