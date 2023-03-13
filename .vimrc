@@ -14,13 +14,21 @@ set tabstop=4
 set shiftwidth=4
 set autoindent
 
+
+"==== leader key ====
+let mapleader="-"
+
+
 "==== my mapping ====
 " - : move line down
-nmap - ddpk
+nnoremap - ddpk
 " _ : move line up
-nmap _ ddkPj
+nnoremap _ ddkPj
 " <c-u> : uppercase current word
-imap <c-u> <esc>viwUA
+inoremap <c-u> <esc>viwUA
+" inoremap <leader>u <esc>viwUA
+nnoremap <c-u> viwUe
+" nnoremap <leader>u viwUe
 
 
 " Plugins will be downloaded under the specified directory.
