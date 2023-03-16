@@ -16,6 +16,7 @@ alias dotfilesbackup="cp ~/.*rc ~/Desktop/dotfiles/ && cd ~/Desktop/dotfiles && 
 
 
 export ZSH="$HOME/.oh-my-zsh"
+export PATH=$PATH:~/.cargo/bin
 
 # https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="random"

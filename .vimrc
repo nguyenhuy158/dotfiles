@@ -3,43 +3,35 @@
 
 call plug#begin(has( 'nvim' ) ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'	
-Plug 'junegunn/vim-easy-align'
-Plug 'https://github.com/junegunn/vim-github-dashboard.git'
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-Plug 'fatih/vim-go', { 'tag': '*' }
-Plug 'ervandew/supertab'
-Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'tpope/vim-sensible'
-Plug 'junegunn/seoul256.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'SirVer/ultisnips' 
+" Plug 'honza/vim-snippets'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'voldikss/vim-floaterm'
 call plug#end()
+
+" let g:UltiSnipsExpandTrigger="<tab>"
+" let g:UltiSnipsJumpForwardTrigger="<c-b>"
+" let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" " If you want :UltiSnipsEdit to split your window.
+" let g:UltiSnipsEditSplit="vertical"
 
 " coc plguin
 let g:coc_global_extensions = [
             \ 'coc-ultisnips',
             \ 'coc-json',
-            \ 'coc-tsserver',
-            \ 'coc-html',
             \ 'coc-java',
             \ 'coc-yaml',
             \ 'coc-highlight',
             \ 'coc-eslint',
             \ 'coc-git',
             \ 'coc-prettier',
-            \ 'coc-flutter',
-            \ 'coc-angular',
             \ 'coc-pyright',
             \ ]
 
@@ -217,6 +209,12 @@ inoremap <up> <c-o>:echo "No up for you!"<cr>
 nnoremap <down> :echo "No down for you!"<cr>
 vnoremap <down> :<c-u>echo "No down for you!"<cr>
 inoremap <down> <c-o>:echo "No down for you!"<cr>
+" easy align 
+xnoremap ga <Plug>(EasyAlign)
+nnoremap ga <Plug>(EasyAlign)
+" next pre tab
+nnoremap <C-j> :tabprevious<CR>                                                                            
+nnoremap <C-k> :tabnext<CR>
 
 "==== abbreviation ====
 iabbrev adn and
